@@ -1,0 +1,9 @@
+# Site settings
+title: Dropwizard Modules Directory
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://modules.dropwizard.io" # the base hostname & protocol for your site
+twitter_username: dropwizardio
+github_username:  dropwizard
+
+# Build settings
+markdown: kramdown

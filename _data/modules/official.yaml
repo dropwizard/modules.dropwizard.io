@@ -1,0 +1,28 @@
+- name: dropwizard-elasticsearch
+  url: https://github.com/dropwizard/dropwizard-elasticsearch
+  description: Support for Elasticsearch
+  dropwizard: 0.7
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-elasticsearch
+- name: dropwizard-flyway
+  url: https://github.com/dropwizard/dropwizard-flyway
+  description: Flyway for database migrations
+  dropwizard: 0.7
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-flyway
+- name: dropwizard-java8
+  url: https://github.com/dropwizard/dropwizard-java8
+  description: Support for Java 8 features
+  dropwizard: 0.7
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-protobuf
+- name: dropwizard-protobuf
+  url: https://github.com/dropwizard/dropwizard-protobuf
+  description: Support for reading and writing Google Protocol Buffer objects within Dropwizard
+  dropwizard: 0.7
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-protobuf

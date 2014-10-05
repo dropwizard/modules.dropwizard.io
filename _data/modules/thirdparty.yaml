@@ -1,0 +1,183 @@
+- name: dropwizard-guice
+  url: https://github.com/HubSpot/dropwizard-guice
+  description: Support for Google Guice
+  dropwizard: 0.7
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/com.hubspot.dropwizard/dropwizard-guice
+    groupId:
+    artifactId:
+- name: dropwizard-spring
+  url: https://github.com/hmsonline/dropwizard-spring
+  description: Spring integration for Dropwizard
+  dropwizard: 0.7
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/com.hmsonline/dropwizard-spring
+- name: dropwizard-redirect-bundle
+  url: https://github.com/bazaarvoice/dropwizard-redirect-bundle
+  description: A simple bundle for Dropwizard that allows for HTTP redirects
+  dropwizard: 0.7
+  maven:
+    url: http://mvnrepository.com/artifact/com.bazaarvoice.dropwizard/dropwizard-redirect-bundle
+- name: dropwizard-webjars-bundle
+  url: https://github.com/bazaarvoice/dropwizard-webjars-bundle
+  description: Dropwizard bundle to make working with WebJars easier
+  dropwizard: 0.7
+  maven:
+    url: http://mvnrepository.com/artifact/com.bazaarvoice.dropwizard/dropwizard-webjars-bundle
+- name: dropwizard-configurable-assets-bundle
+  url: https://github.com/bazaarvoice/dropwizard-configurable-assets-bundle
+  description: Implementation of the AssetBundle allowing user configuration
+  dropwizard: 0.7
+  maven:
+    url: http://mvnrepository.com/artifact/com.bazaarvoice.dropwizard/dropwizard-configurable-assets-bundle
+- name: dropwizard-metrics-librato 
+  url: https://github.com/librato/dropwizard-librato
+  description: Send metrics from your Dropwizard application to Librato Metrics
+  dropwizard: 0.7
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/com.librato.metrics/dropwizard-metrics-librato
+- name: dropwizard-cassandra
+  url: https://github.com/stuartgunter/dropwizard-cassandra/
+  description: Dropwizard support for Cassandra
+  dropwizard: 0.7
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/org.stuartgunter/dropwizard-cassandra
+- name: dropwizard-gelf
+  url: https://github.com/gini/dropwizard-gelf
+  description: Support for logging to a GELF-enabled server like Graylog2 or logstash
+  dropwizard: 0.7
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/net.gini.dropwizard/dropwizard-gelf
+- name: dropwizardry-guice
+  url: https://github.com/jclawson/dropwizardry
+  description: Sensible Guice support for Dropwizard
+  dropwizard: 0.7
+  license: LGPL3
+  maven:
+    url: http://mvnrepository.com/artifact/com.jasonclawson.dropwizardry/dropwizardry-guice
+- name: dropwizardry-jersey
+  url: https://github.com/jclawson/dropwizardry
+  description: Make Jersey work better in Dropwizard
+  dropwizard: 0.7
+  license: LGPL3
+  maven:
+    url: http://mvnrepository.com/artifact/com.jasonclawson.dropwizardry/dropwizardry-jersey
+- name: dropwizardry-config-hocon
+  url: https://github.com/jclawson/dropwizardry
+  description: Enable using HOCON to configure Dropwizard
+  dropwizard: 0.7
+  license: LGPL3
+  maven:
+    url: http://mvnrepository.com/artifact/com.jasonclawson.dropwizardry/dropwizardry-config-hocon
+- name: dropwizard-auth-ldap
+  url: https://github.com/yammer/dropwizard-auth-ldap
+  description: Dropwizard Authentication Module for LDAP using JNDI
+  dropwizard: 0.7
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/com.yammer.dropwizard/dropwizard-auth-ldap
+- name: clustermate-dropwizard
+  url: https://github.com/cowtowncoder/ClusterMate
+  description: Support for ClusterMate-based services
+  dropwizard: 0.7
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/com.fasterxml.clustermate/clustermate-dropwizard
+- name: transistore-dropwizard
+  url: https://github.com/FasterXML/TransiStore
+  description: Support for TransiStore Distributed data store
+  dropwizard: 0.7
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/com.fasterxml.transistore/transistore-dropwizard
+- name: ostrich-dropwizard
+  url: https://github.com/bazaarvoice/ostrich
+  description: Support for Ostrich (SOA Library)
+  dropwizard: 0.7
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/com.bazaarvoice.ostrich/ostrich-dropwizard
+- name: jimix-dropwizard
+  url: https://github.com/manuel-woelker/jimix
+  description: Support for Jimix (modern JMX web console)
+  dropwizard: 0.7
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/org.woelker.jimix/jimix-dropwizard
+- name: trimou-extension-dropwizard
+  url: https://github.com/trimou/trimou
+  description: Support for the Trimou templating engine
+  dropwizard: 0.7
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/org.trimou/trimou-extension-dropwizard
+
+## Dropwizard 0.6.x
+- name: dropwizard-extra-core
+  url: https://datasift.github.io/dropwizard-extra/dropwizard-extra-core/
+  description: Some useful additions to Dropwizard that have no external dependencies
+  dropwizard: 0.6
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/com.datasift.dropwizard/dropwizard-extra-core
+- name: dropwizard-extra-zookeeper
+  url: https://datasift.github.io/dropwizard-extra/dropwizard-extra-zookeeper/
+  description: Dropwizard integration for working with ZooKeeper
+  dropwizard: 0.6
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/com.datasift.dropwizard/dropwizard-extra-zookeeper
+- name: dropwizard-extra-hbase
+  url: https://datasift.github.io/dropwizard-extra/dropwizard-extra-hbase/
+  description: Dropwizard integration for working with HBase in Scala
+  dropwizard: 0.6
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/com.datasift.dropwizard/dropwizard-extra-hbase
+- name: dropwizard-extra-kafka
+  url: https://datasift.github.io/dropwizard-extra/dropwizard-extra-kafka/
+  description: Dropwizard integration for working with Kafka
+  dropwizard: 0.6
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/com.datasift.dropwizard/dropwizard-extra-kafka
+- name: dropwizard-extra-curator
+  url: https://datasift.github.io/dropwizard-extra/dropwizard-extra-curator/
+  description: Dropwizard integration for working with ZooKeeper using Netflix's Curator client
+  dropwizard: 0.6
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/com.datasift.dropwizard/dropwizard-extra-curator
+- name: dropwizard-extra-scala
+  url: https://datasift.github.io/dropwizard-extra/dropwizard-extra-scala/
+  description: Improvements to the Scala API for various Dropwizard modules
+  dropwizard: 0.6
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/com.datasift.dropwizard/dropwizard-extra-scala
+- name: dropwizard-testing-integration
+  url: https://github.com/yammer/dropwizard-testing-integration
+  description: Utilities for writing Dropwizard integration tests
+  dropwizard: 0.6
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/com.yammer.dropwizard.testing/dropwizard-testing-integration
+- name: dropwizard-quartz
+  url: https://github.com/jaredstehler/dropwizard-quartz
+  description: Simple Job Scheduler implementation, integrating Guice and Quartz
+  dropwizard: 0.6
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/com.fiestacabin.dropwizard.quartz/dropwizard-quartz
+- name: dropwizard-guice
+  url: https://github.com/jaredstehler/dropwizard-guice
+  description: Simple library for using Guice DI in Dropwizard
+  dropwizard: 0.6
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/com.fiestacabin.dropwizard.guice/dropwizard-guice

@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>License</th>
+      <th>Maven Artifact</th>
+    </tr>
+{% for module in site.data.modules.official %}
+    <tr>
+      <td><a href="{{ module.url }}">{{ module.name }}</a></td>
+      <td>{{ module.description }}</td>
+      <td>{{ module.license }}</td>
+      <td><a href="{{ module.maven.url }}">Details</a></td>
+    </tr>
+{% endfor %}
+  </table>
+
+</div>
