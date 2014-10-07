@@ -166,6 +166,48 @@
   license: Apache 2.0
   maven:
     url: https://bintray.com/commercehub-oss/main/dropwizard-mongeez/view
+- name: dropwizard-logging-loggly
+  url: https://github.com/reines/dropwizard-logging-loggly
+  description: Dropwizard logging support for Loggly.
+  dropwizard: 0.7
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/com.jamierf.dropwizard/dropwizard-logging-loggly
+- name: dropwizard-logging-gelf
+  url: https://github.com/reines/dropwizard-logging-gelf
+  description: Dropwizard logging support for GELF servers.
+  dropwizard: 0.7
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/com.jamierf.dropwizard/dropwizard-logging-gelf
+- name: dropwizard-debpkg-maven-plugin
+  url: https://github.com/reines/dropwizard-debpkg-maven-plugin
+  description: A maven plugin for packing Dropwizard applications as Debian packages.
+  dropwizard: 0.7
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/com.jamierf.dropwizard/dropwizard-debpkg-maven-plugin
+- name: dropwizard-swagger
+  url: https://github.com/federecio/dropwizard-swagger
+  description: A Dropwizard bundle that serves Swagger UI static content and loads Swagger endpoints.  
+  dropwizard: 0.7
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/io.federecio/dropwizard-swagger
+- name: dropwizard-guicey
+  url: https://github.com/xvik/dropwizard-guicey
+  description: Flexible guice integration.
+  dropwizard: 0.7
+  license: MIT
+  maven:
+    url: http://mvnrepository.com/artifact/ru.vyarus/dropwizard-guicey
+- name: dropwizard-orient-server
+  url: https://github.com/xvik/dropwizard-orient-server
+  description: Embedded OrientDB server for dropwizard.
+  dropwizard: 0.7
+  license: MIT
+  maven:
+    url: http://mvnrepository.com/artifact/ru.vyarus/dropwizard-orient-server
 
 ## Dropwizard 0.6.x
 - name: dropwizard-extra-core
@@ -231,31 +273,3 @@
   license: Apache 2.0
   maven:
     url: http://mvnrepository.com/artifact/com.fiestacabin.dropwizard.guice/dropwizard-guice
-- name: dropwizard-logging-loggly
-  url: https://github.com/reines/dropwizard-logging-loggly
-  description: Dropwizard logging support for Loggly.
-  dropwizard: 0.7
-  license: Apache 2.0
-  maven:
-    url: http://mvnrepository.com/artifact/com.jamierf.dropwizard/dropwizard-logging-loggly
-- name: dropwizard-logging-gelf
-  url: https://github.com/reines/dropwizard-logging-gelf
-  description: Dropwizard logging support for GELF servers.
-  dropwizard: 0.7
-  license: Apache 2.0
-  maven:
-    url: http://mvnrepository.com/artifact/com.jamierf.dropwizard/dropwizard-logging-gelf
-- name: dropwizard-debpkg-maven-plugin
-  url: https://github.com/reines/dropwizard-debpkg-maven-plugin
-  description: A maven plugin for packing Dropwizard applications as Debian packages.
-  dropwizard: 0.7
-  license: Apache 2.0
-  maven:
-    url: http://mvnrepository.com/artifact/com.jamierf.dropwizard/dropwizard-debpkg-maven-plugin
-- name: dropwizard-swagger
-  url: https://github.com/federecio/dropwizard-swagger
-  description: A Dropwizard bundle that serves Swagger UI static content and loads Swagger endpoints.  
-  dropwizard: 0.7
-  license: Apache 2.0
-  maven:
-    url: http://mvnrepository.com/artifact/io.federecio/dropwizard-swagger
