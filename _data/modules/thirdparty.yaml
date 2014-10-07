@@ -252,3 +252,17 @@
   license: Apache 2.0
   maven:
     url: http://mvnrepository.com/artifact/com.jamierf.dropwizard/dropwizard-debpkg-maven-plugin
+- name: dropwizard-guicey
+  url: https://github.com/xvik/dropwizard-guicey
+  description: Flexible guice integration.
+  dropwizard: 0.7
+  license: MIT
+  maven:
+    url: http://mvnrepository.com/artifact/ru.vyarus/dropwizard-guicey
+- name: dropwizard-orient-server
+  url: https://github.com/xvik/dropwizard-orient-server
+  description: Embedded OrientDB server for dropwizard.
+  dropwizard: 0.7
+  license: MIT
+  maven:
+    url: http://mvnrepository.com/artifact/ru.vyarus/dropwizard-orient-server
