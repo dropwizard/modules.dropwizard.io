@@ -208,11 +208,6 @@
   license: MIT
   maven:
     url: http://mvnrepository.com/artifact/ru.vyarus/dropwizard-orient-server
-- name: dropwizard-discovery
-  url: https://github.com/jplock/dropwizard-discovery
-  description: A Dropwizard bundle that registers into Zookeeper for service discovery.
-  dropwizard: 0.7
-  license: Apache 2.0
 
 ## Dropwizard 0.6.x
 - name: dropwizard-extra-core
