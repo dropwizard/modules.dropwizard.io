@@ -1,3 +1,10 @@
+- name: dropwizard-discovery
+  url: https://github.com/dropwizard/dropwizard-discovery
+  description: A Dropwizard bundle that registers into Zookeeper for service discovery
+  dropwizard: 0.7
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-discovery
 - name: dropwizard-elasticsearch
   url: https://github.com/dropwizard/dropwizard-elasticsearch
   description: Support for Elasticsearch
