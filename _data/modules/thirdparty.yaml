@@ -208,6 +208,13 @@
   license: MIT
   maven:
     url: http://mvnrepository.com/artifact/ru.vyarus/dropwizard-orient-server
+- name: dropwizard-shiro
+  url: https://github.com/silb/dropwizard-shiro
+  description: A bundle for securing Dropwizard with Apache Shiro.
+  dropwizard: 0.7
+  license: MIT
+  maven:
+    url: http://mvnrepository.com/artifact/org.secnod.dropwizard/dropwizard-shiro
 
 ## Dropwizard 0.6.x
 - name: dropwizard-extra-core
