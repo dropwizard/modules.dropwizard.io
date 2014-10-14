@@ -122,7 +122,7 @@
   dropwizard: 0.7
   license: Apache 2.0
 - name: dropwizard-jooq
-  url: https://github.com/benjamin-bader/droptoolstree/master/dropwizard-jooq
+  url: https://github.com/benjamin-bader/droptools/tree/master/dropwizard-jooq
   description: Addon bundle for Dropwizard to support jOOQ for database access
   dropwizard: 0.7
   license: Apache 2.0
