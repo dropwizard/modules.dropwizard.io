@@ -116,8 +116,13 @@
   license: Apache 2.0
   maven:
     url: http://mvnrepository.com/artifact/org.trimou/trimou-extension-dropwizard
+- name: dropwizard-redis
+  url: https://github.com/benjamin-bader/droptools
+  description: Support for using redis via the Jedis client
+  dropwizard: 0.7
+  license: Apache 2.0
 - name: dropwizard-jooq
-  url: https://github.com/benjamin-bader/dropwizard-jooq
+  url: https://github.com/benjamin-bader/droptools
   description: Addon bundle for Dropwizard to support jOOQ for database access
   dropwizard: 0.7
   license: Apache 2.0
