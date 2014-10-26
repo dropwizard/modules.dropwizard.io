@@ -220,6 +220,13 @@
   license: MIT
   maven:
     url: http://mvnrepository.com/artifact/org.secnod.dropwizard/dropwizard-shiro
+- name: dropwizard-xml
+  url: https://github.com/yunspace/dropwizard-xml
+  description: Dropwizard bundle for processing and validating XMLs.
+  dropwizard: 0.7
+  license: Apache 2.0
+  maven:
+    url: https://bintray.com/yunspace/dropwizard/dropwizard-xml/view
 
 ## Dropwizard 0.6.x
 - name: dropwizard-extra-core
