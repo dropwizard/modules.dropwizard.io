@@ -32,7 +32,7 @@
   dropwizard: 0.7
   maven:
     url: http://mvnrepository.com/artifact/com.bazaarvoice.dropwizard/dropwizard-configurable-assets-bundle
-- name: dropwizard-metrics-librato 
+- name: dropwizard-metrics-librato
   url: https://github.com/librato/dropwizard-librato
   description: Send metrics from your Dropwizard application to Librato Metrics
   dropwizard: 0.7
@@ -194,7 +194,7 @@
     url: http://mvnrepository.com/artifact/com.jamierf.dropwizard/dropwizard-debpkg-maven-plugin
 - name: dropwizard-swagger
   url: https://github.com/federecio/dropwizard-swagger
-  description: A Dropwizard bundle that serves Swagger UI static content and loads Swagger endpoints.  
+  description: A Dropwizard bundle that serves Swagger UI static content and loads Swagger endpoints.
   dropwizard: 0.7
   license: Apache 2.0
   maven:
@@ -227,6 +227,13 @@
   license: Apache 2.0
   maven:
     url: https://bintray.com/yunspace/dropwizard/dropwizard-xml/view
+- name: dropwizard-template-config
+  url: https://github.com/tkrille/dropwizard-template-config
+  description: Dropwizard bundle that enables you to write your config.yaml as a Freemarker template.
+  dropwizard: 0.7, 0.8
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/de.thomaskrille/dropwizard-template-config
 
 ## Dropwizard 0.6.x
 - name: dropwizard-extra-core
