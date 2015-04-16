@@ -7,6 +7,15 @@
     url: https://repo1.maven.org/maven2/be/fluid-it/tools/dropwizard/wizard-in-a-box
     groupId: be.fluid-it.tools.dropwizard
     artifactId: wizard-in-a-box
+- name: dropwizard-heroku
+  url: https://github.com/login-box/dropwizard-heroku
+  description: Configuration glue to run Dropwizard on Heroku
+  dropwizard: 0.8
+  license: MIT
+  maven:
+    url: https://jcenter.bintray.com/com/loginbox/heroku/
+
+## 0.7
 - name: dropwizard-guice
   url: https://github.com/HubSpot/dropwizard-guice
   description: Support for Google Guice
