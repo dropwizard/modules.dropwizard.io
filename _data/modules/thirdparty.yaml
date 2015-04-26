@@ -14,7 +14,13 @@
   license: MIT
   maven:
     url: https://jcenter.bintray.com/com/loginbox/heroku/
-
+- name: jdit
+  url: https://github.com/arteam/jdit
+  description: Integration testing of JDBI DAO's in Dropwizard
+  dropwizard: 0.8
+  license: MIT
+  maven:
+      url: https://bintray.com/arteam/maven/jdit
 ## 0.7
 - name: dropwizard-guice
   url: https://github.com/HubSpot/dropwizard-guice
