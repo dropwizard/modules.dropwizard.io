@@ -21,6 +21,15 @@
   license: MIT
   maven:
       url: https://bintray.com/arteam/maven/jdit
+- name: dropwizard-websocket-jee7
+  url: https://github.com/TomCools/dropwizard-websocket-jee7-bundle
+  description: A bundle that adds support for the JSR 356 Websocket specification.
+  dropwizard: 0.8
+  license: Apache 2.0
+  maven:
+    url: https://oss.sonatype.org/content/repositories/releases/be/tomcools/dropwizard-websocket-jee7-bundle/
+    groupId: be.tomcools
+    artifactId: dropwizard-websocket-jee7-bundle
 ## 0.7
 - name: dropwizard-guice
   url: https://github.com/HubSpot/dropwizard-guice
