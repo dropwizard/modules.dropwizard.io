@@ -228,7 +228,7 @@
 - name: dropwizard-swagger
   url: https://github.com/federecio/dropwizard-swagger
   description: A Dropwizard bundle that serves Swagger UI static content and loads Swagger endpoints.
-  dropwizard: 0.7
+  dropwizard: 0.7, 0.8
   license: Apache 2.0
   maven:
     url: http://mvnrepository.com/artifact/io.federecio/dropwizard-swagger
