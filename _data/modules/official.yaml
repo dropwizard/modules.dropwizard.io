@@ -25,7 +25,7 @@
   dropwizard: 0.7
   license: Apache 2.0
   maven:
-    url: http://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-protobuf
+    url: http://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-java8
 - name: dropwizard-protobuf
   url: https://github.com/dropwizard/dropwizard-protobuf
   description: Support for reading and writing Google Protocol Buffer objects within Dropwizard
