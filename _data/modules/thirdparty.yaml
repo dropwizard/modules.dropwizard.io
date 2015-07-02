@@ -1,6 +1,6 @@
 - name: comsat-dropwizard
   url: http://docs.paralleluniverse.co/comsat/#dropwizard
-  description: Handle many more concurrent requests with by replacing heavyweight Java threads with featherweight Quasar fibers
+  description: Handle many more concurrent requests with Dropwizard by replacing heavyweight Java threads with featherweight Quasar fibers
   dropwizard: 0.8
   license: GNU LGPL 3.0 or EPL v1.0
   maven:
