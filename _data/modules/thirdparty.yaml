@@ -23,6 +23,15 @@
   license: MIT
   maven:
     url: https://jcenter.bintray.com/com/loginbox/heroku/
+- name: dropwizard-mongo-module
+  url: https://github.com/washingtonpost/dropwizard-mongo-module
+  description: A guice module for connecting a Dropwizard app to a Mongo DB cluster
+  dropwizard: 0.8
+  license: MIT
+  maven:
+    url: https://repo1.maven.org/maven2/com/washingtonpost/dropwizard/dropwizard-mongo/
+    groupId: com.washingtonpost.dropwizard
+    artifactId: dropwizard-mongo
 - name: jdit
   url: https://github.com/arteam/jdit
   description: Integration testing of JDBI DAO's in Dropwizard
