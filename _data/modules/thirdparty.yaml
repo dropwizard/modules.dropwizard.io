@@ -32,6 +32,15 @@
     url: https://repo1.maven.org/maven2/com/washingtonpost/dropwizard/dropwizard-mongo/
     groupId: com.washingtonpost.dropwizard
     artifactId: dropwizard-mongo
+- name: dropwizard-peer-authenticator
+  url: https://github.com/washingtonpost/dropwizard-peer-authenticator
+  description: Dropwizard module to enable BasicAuth security around a service with convenience factories for reading in lists of (users, passwords) who are authorized to make requests of your service
+  dropwizard: 0.8
+  license: MIT
+  maven:
+    url: https://repo1.maven.org/maven2/com/washingtonpost/dropwizard/dropwizard-peer-authenticator/
+    groupId: com.washingtonpost.dropwizard
+    artifactId: dropwizard-peer-authenticator
 - name: jdit
   url: https://github.com/arteam/jdit
   description: Integration testing of JDBI DAO's in Dropwizard
