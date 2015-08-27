@@ -359,3 +359,10 @@
   license: Apache 2.0
   maven:
     url: http://mvnrepository.com/artifact/com.fiestacabin.dropwizard.guice/dropwizard-guice
+- name: cf-signal-resource-bundle
+  url: https://github.com/heldeen/cf-signal-resource-bundle/
+  description: Dropwizard bundle to signal the AWS AutoScalingGroup via AWS CloudFormation SignalResource API when running on an AWS EC2 instance.
+  dropwizard: 0.8
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/net.eldeen.dropwizard/cf-signal-resource-bundle    
