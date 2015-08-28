@@ -41,6 +41,13 @@
     url: https://repo1.maven.org/maven2/com/washingtonpost/dropwizard/dropwizard-peer-authenticator/
     groupId: com.washingtonpost.dropwizard
     artifactId: dropwizard-peer-authenticator
+- name: cf-signal-resource-bundle
+  url: https://github.com/heldeen/cf-signal-resource-bundle/
+  description: Dropwizard bundle to signal the AWS AutoScalingGroup via AWS CloudFormation SignalResource API when running on an AWS EC2 instance.
+  dropwizard: 0.8
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/net.eldeen.dropwizard/cf-signal-resource-bundle
 - name: jdit
   url: https://github.com/arteam/jdit
   description: Integration testing of JDBI DAO's in Dropwizard
@@ -359,10 +366,3 @@
   license: Apache 2.0
   maven:
     url: http://mvnrepository.com/artifact/com.fiestacabin.dropwizard.guice/dropwizard-guice
-- name: cf-signal-resource-bundle
-  url: https://github.com/heldeen/cf-signal-resource-bundle/
-  description: Dropwizard bundle to signal the AWS AutoScalingGroup via AWS CloudFormation SignalResource API when running on an AWS EC2 instance.
-  dropwizard: 0.8
-  license: Apache 2.0
-  maven:
-    url: http://mvnrepository.com/artifact/net.eldeen.dropwizard/cf-signal-resource-bundle    
