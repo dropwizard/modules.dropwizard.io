@@ -16,6 +16,11 @@
     url: https://repo1.maven.org/maven2/be/fluid-it/tools/dropwizard/wizard-in-a-box
     groupId: be.fluid-it.tools.dropwizard
     artifactId: wizard-in-a-box
+- name: dropwizard-keycloak
+  url: https://github.com/ahus1/keycloak-dropwizard-integration/
+  description: Integration of OAuth2 by using JBoss Keycloak
+  dropwizard: 0.8
+  license: Apache 2.0
 - name: dropwizard-heroku
   url: https://github.com/login-box/dropwizard-heroku
   description: Configuration glue to run Dropwizard on Heroku
