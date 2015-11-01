@@ -21,6 +21,10 @@
   description: Integration of OAuth2 by using JBoss Keycloak
   dropwizard: 0.8
   license: Apache 2.0
+  maven:
+    url: https://repo1.maven.org/maven2/de/ahus1/keycloak/dropwizard/keycloak-dropwizard/
+    groupId: de.ahus1.keycloak.dropwizard
+    artifactId: keycloak-dropwizard
 - name: dropwizard-heroku
   url: https://github.com/login-box/dropwizard-heroku
   description: Configuration glue to run Dropwizard on Heroku
