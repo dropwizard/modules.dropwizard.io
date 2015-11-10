@@ -1,3 +1,12 @@
+- name: dropwizard-websockets
+  url: https://github.com/LivePersonInc/dropwizard-websockets
+  description: websockets support including metrics 
+  dropwizard: 0.9.1
+  license: MIT
+  maven:
+    url: https://repo1.maven.org/maven2/com/liveperson/dropwizard-websockets/
+    groupId: com.liveperson
+    artifactId: dropwizard-websockets
 - name: dropwizard-keycloak
   url: https://github.com/ahus1/keycloak-dropwizard-integration/
   description: Integration of OAuth2 by using JBoss Keycloak
