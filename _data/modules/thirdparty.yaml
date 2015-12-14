@@ -19,7 +19,7 @@
 - name: dropwizard-keycloak
   url: https://github.com/ahus1/keycloak-dropwizard-integration/
   description: Integration of OAuth2 by using JBoss Keycloak
-  dropwizard: 0.9
+  dropwizard: 0.9.1
   license: Apache 2.0
   maven:
     url: https://repo1.maven.org/maven2/de/ahus1/keycloak/dropwizard/keycloak-dropwizard/
