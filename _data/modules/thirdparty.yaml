@@ -1,3 +1,12 @@
+- name: hystrix-dropwzard-bundle
+  url: https://github.com/zapodot/hystrix-dropwizard-bundle
+  description: easy Hystrix eventstream bundle for DropWizard
+  dropwizard: 0.9.1
+  license: Apache 2.0
+  maven:
+    url: http://central.maven.org/maven2/org/zapodot/hystrix-dropwizard-bundle/
+    groupId: org.zapodot
+    artifactId: hystrix-dropwizard-bundle
 - name: dropwizard-websockets
   url: https://github.com/LivePersonInc/dropwizard-websockets
   description: websockets support including metrics
