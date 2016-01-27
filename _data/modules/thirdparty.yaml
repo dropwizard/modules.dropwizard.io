@@ -7,6 +7,15 @@
     url: http://central.maven.org/maven2/com/smoketurner/dropwizard/dropwizard-consul/
     groupId: com.smoketurner.dropwizard
     artifactId: dropwizard-consul
+- name: dropwizard-swagger
+  url: https://github.com/smoketurner/dropwizard-swagger
+  description: A Dropwizard bundle that serves Swagger UI static content and loads Swagger endpoints.
+  dropwizard: 0.9.1
+  license: Apache 2.0
+  maven:
+    url: http://central.maven.org/maven2/com/smoketurner/dropwizard-swagger/
+    groupId: com.smoketurner
+    artifactId: dropwizard-swagger
 - name: hystrix-dropwzard-bundle
   url: https://github.com/zapodot/hystrix-dropwizard-bundle
   description: easy Hystrix eventstream bundle for DropWizard
@@ -322,13 +331,6 @@
   license: Apache 2.0
   maven:
     url: http://mvnrepository.com/artifact/com.jamierf.dropwizard/dropwizard-debpkg-maven-plugin
-- name: dropwizard-swagger
-  url: https://github.com/federecio/dropwizard-swagger
-  description: A Dropwizard bundle that serves Swagger UI static content and loads Swagger endpoints.
-  dropwizard: 0.7, 0.8
-  license: Apache 2.0
-  maven:
-    url: http://mvnrepository.com/artifact/io.federecio/dropwizard-swagger
 - name: dropwizard-guicey
   url: https://github.com/xvik/dropwizard-guicey
   description: Flexible guice integration.
