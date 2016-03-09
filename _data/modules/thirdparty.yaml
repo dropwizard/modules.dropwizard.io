@@ -31,8 +31,8 @@
   dropwizard: 0.9.1
   license: Apache 2.0
   maven:
-    url: https://dl.bintray.com/bintray/jcenter/com/palantir/dropwizard/web-security/dropwizard-web-security/
-    groupId: com.palantir.dropwizard.web-security
+    url: http://dl.bintray.com/palantir/releases/com/palantir/websecurity/dropwizard-web-security/
+    groupId: com.palantir.websecurity
     artifactId: dropwizard-web-security
 - name: hystrix-dropwzard-bundle
   url: https://github.com/zapodot/hystrix-dropwizard-bundle
