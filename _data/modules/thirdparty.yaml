@@ -7,6 +7,15 @@
     url: http://central.maven.org/maven2/com/smoketurner/dropwizard/consul-core/
     groupId: com.smoketurner.dropwizard
     artifactId: consul-core
+- name: dropwizard-index-page
+  url: https://github.com/palantir/dropwizard-index-page
+  description: A bundle that serves the index page for a single page application
+  dropwizard: 0.9.2
+  license: Apache 2.0
+  maven:
+    url: http://dl.bintray.com/palantir/releases/com/palantir/indexpage/dropwizard-index-page/
+    groupId: com.palantir.indexpage
+    artifactId: dropwizard-index-page
 - name: dropwizard-swagger
   url: https://github.com/smoketurner/dropwizard-swagger
   description: A Dropwizard bundle that serves Swagger UI static content and loads Swagger endpoints.
