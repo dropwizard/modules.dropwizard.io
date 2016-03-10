@@ -1,3 +1,21 @@
+- name: dropwizard-web-logger
+  url: https://github.com/palantir/dropwizard-web-logger
+  description: Used to help log web activity to log files on a server’s backend
+  dropwizard: 0.9.2
+  license: Apache 2.0
+  maven:
+    url: http://dl.bintray.com/palantir/releases/com/palantir/weblogger/dropwizard-web-logger/
+    groupId: com.palantir.weblogger
+    artifactId: dropwizard-web-logger
+- name: dropwizard-version-info
+  url: https://github.com/palantir/dropwizard-version-info
+  description: Exposes a version string as a Jersey resource under `/version`
+  dropwizard: 0.9.2
+  license: Apache 2.0
+  maven:
+    url: http://dl.bintray.com/palantir/releases/com/palantir/versioninfo/dropwizard-version-info/
+    groupId: com.palantir.versioninfo
+    artifactId: dropwizard-version-info
 - name: dropwizard-consul
   url: https://github.com/smoketurner/dropwizard-consul
   description: Consul support with Dropwizard
