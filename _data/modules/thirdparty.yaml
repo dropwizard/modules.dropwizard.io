@@ -61,6 +61,33 @@
     url: http://central.maven.org/maven2/com/smoketurner/dropwizard/zipkin-core/
     groupId: com.smoketurner.dropwizard
     artifactId: zipkin-core
+- name: dropwizard-circuitbreaker
+  url: https://github.com/mtakaki/dropwizard-circuitbreaker
+  description: Simple implementation of circuit breaker design pattern using annotations.
+  dropwizard: 0.9.2
+  license: GNU LGPL 2.0
+  maven:
+    url: http://central.maven.org/maven2/com/github/mtakaki/dropwizard-circuitbreaker/
+    groupId: com.github.mtakaki
+    artifactId: dropwizard-circuitbreaker
+- name: dropwizard-logentries-appender
+  url: https://github.com/mtakaki/dropwizard-logentries-appender
+  description: Log appender for logentries service.
+  dropwizard: 0.9.2
+  license: GNU LGPL 2.0
+  maven:
+    url: http://central.maven.org/maven2/com/github/mtakaki/logentries-appender/
+    groupId: com.github.mtakaki
+    artifactId: logentries-appender
+- name: dropwizard-hikaricp
+  url: https://github.com/mtakaki/dropwizard-hikaricp
+  description: A replacement for the hibernate and db packages. It replaces Tomcat connection pool with HikariCP.
+  dropwizard: 0.9.2
+  license: GNU LGPL 3.0
+  maven:
+    url: http://central.maven.org/maven2/com/github/mtakaki/dropwizard-hikaricp/
+    groupId: com.github.mtakaki
+    artifactId: dropwizard-hikaricp
 - name: hystrix-dropwzard-bundle
   url: https://github.com/zapodot/hystrix-dropwizard-bundle
   description: easy Hystrix eventstream bundle for DropWizard
@@ -97,15 +124,6 @@
     url: https://repo1.maven.org/maven2/de/ahus1/keycloak/dropwizard/keycloak-dropwizard/
     groupId: de.ahus1.keycloak.dropwizard
     artifactId: keycloak-dropwizard
-- name: dropwizard-circuitbreaker
-  url: https://github.com/mtakaki/dropwizard-circuitbreaker
-  description: Simple implementation of circuit breaker design pattern using annotations
-  dropwizard: 0.9.1
-  license: GNU LGPL 2.0
-  maven:
-    url: https://bintray.com/mtakaki/maven/dropwizard-circuitbreaker/
-    groupId: com.mtakaki
-    artifactId: dropwizard-circuitbreaker
 - name: encrypted-config-value-bundle
   url: https://github.com/palantir/encrypted-config-value
   description: support substituting encrypted values into configuration using standard `\${...}` syntax
