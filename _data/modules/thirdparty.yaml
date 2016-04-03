@@ -1,3 +1,12 @@
+- name: dropwizard-auth-jwt
+  url: https://github.com/ToastShaman/dropwizard-auth-jwt
+  description: Dropwizard Authentication Module for Json Web Tokens (JWT)
+  dropwizard: 0.9.2
+  license: Apache 2.0
+  maven:
+    url: http://central.maven.org/maven2/com/github/toastshaman/dropwizard-auth-jwt/
+    groupId: com.github.toastshaman
+    artifactId: dropwizard-auth-jwt
 - name: dropwizard-web-logger
   url: https://github.com/palantir/dropwizard-web-logger
   description: Used to help log web activity to log files on a server’s backend
