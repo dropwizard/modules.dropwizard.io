@@ -1,3 +1,12 @@
+- name: dropwizard-circuitbreaker
+  url: https://github.com/mtakaki/dropwizard-petite
+  description: Light-weight dependency injection using Jodd Petite
+  dropwizard: 0.9.2
+  license: MIT
+  maven:
+    url: http://central.maven.org/maven2/com/github/mtakaki/dropwizard-petite/
+    groupId: com.github.mtakaki
+    artifactId: dropwizard-petite
 - name: dropwizard-auth-jwt
   url: https://github.com/ToastShaman/dropwizard-auth-jwt
   description: Dropwizard Authentication Module for Json Web Tokens (JWT)
