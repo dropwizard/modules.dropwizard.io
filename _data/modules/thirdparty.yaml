@@ -1,4 +1,4 @@
-- name: dropwizard-circuitbreaker
+- name: dropwizard-petite
   url: https://github.com/mtakaki/dropwizard-petite
   description: Light-weight dependency injection using Jodd Petite
   dropwizard: 0.9.2
