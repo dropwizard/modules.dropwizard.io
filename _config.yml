@@ -8,5 +8,12 @@ github_username:  dropwizard
 # Build settings
 markdown: kramdown
 
+# SEO settings
+twitter:
+  username: "dropwizardio"
+description: "A directory of extension modules for Dropwizard."
+google_site_verification: "3pF8PzUuOrtxjUqU8FX00DiUTwx7K98DXZAsrZeK63A"
+
 gems:
   - jekyll-sitemap
+  - jekyll-seo-tag
