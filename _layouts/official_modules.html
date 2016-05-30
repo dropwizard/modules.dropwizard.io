@@ -23,7 +23,7 @@ layout: default
       <td><a href="{{ module.url }}">{{ module.name }}</a></td>
       <td>{{ module.description }}</td>
       <td>{{ module.license }}</td>
-      <td><a href="{{ module.maven.url }}">Details</a></td>
+      <td><a href="{{ module.maven.url }}"><img src="https://img.shields.io/maven-central/v/{{ module.maven.groupId }}/{{ module.maven.artifactId }}.svg"></a></td>
     </tr>
 {% endfor %}
   </table>
