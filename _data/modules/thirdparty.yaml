@@ -355,14 +355,14 @@
 - name: dropwizard-buildinfo
   url: https://github.com/commercehub-oss/dropwizard-buildinfo
   description: A library that supports exposure of build info in Dropwizard applications
-  dropwizard: 0.7
+  dropwizard: 0.9.2
   license: Apache 2.0
   maven:
     url: https://bintray.com/commercehub-oss/main/dropwizard-buildinfo/view
 - name: dropwizard-auth-ms-ad
   url: https://github.com/commercehub-oss/dropwizard-auth-ms-ad
   description: A Dropwizard authn/authz module for Microsoft Active Directory
-  dropwizard: 0.7
+  dropwizard: 0.9.1
   license: Apache 2.0
   maven:
     url: https://bintray.com/commercehub-oss/main/dropwizard-auth-active-directory/view
@@ -376,12 +376,12 @@
 - name: dropwizard-jclouds
   url: https://github.com/commercehub-oss/dropwizard-jclouds
   description: A collection of libraries that support using Apache jclouds in Dropwizard applications
-  dropwizard: 0.7
+  dropwizard: 0.9.2
   license: Apache 2.0
 - name: dropwizard-mongo
   url: https://github.com/commercehub-oss/dropwizard-mongo
   description: A library that supports using MongoDB for data persistence in Dropwizard applications
-  dropwizard: 0.7
+  dropwizard: 0.9.2
   license: Apache 2.0
   maven:
     url: https://bintray.com/commercehub-oss/main/dropwizard-mongo/view
