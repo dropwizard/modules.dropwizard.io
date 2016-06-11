@@ -385,13 +385,6 @@
   license: Apache 2.0
   maven:
     url: https://bintray.com/commercehub-oss/main/dropwizard-mongo/view
-- name: dropwizard-mongeez
-  url: https://github.com/commercehub-oss/dropwizard-mongeez
-  description: A Dropwizard bundle for using mongeez to manage MongoDB data migrations
-  dropwizard: 0.7
-  license: Apache 2.0
-  maven:
-    url: https://bintray.com/commercehub-oss/main/dropwizard-mongeez/view
 - name: dropwizard-logging-loggly
   url: https://github.com/reines/dropwizard-logging-loggly
   description: Dropwizard logging support for Loggly.
