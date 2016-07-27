@@ -1,3 +1,11 @@
+- name: jdit
+  url: https://github.com/arteam/jdit
+  description: Integration testing of JDBI DAO's in Dropwizard
+  dropwizard: 1.0.0
+  license: MIT
+  maven:
+      url: https://bintray.com/arteam/maven/jdit
+# 0.9
 - name: dropwizard-petite
   url: https://github.com/mtakaki/dropwizard-petite
   description: Light-weight dependency injection using Jodd Petite
@@ -211,13 +219,6 @@
   license: Apache 2.0
   maven:
     url: http://mvnrepository.com/artifact/net.eldeen.dropwizard/cf-signal-resource-bundle
-- name: jdit
-  url: https://github.com/arteam/jdit
-  description: Integration testing of JDBI DAO's in Dropwizard
-  dropwizard: 0.8
-  license: MIT
-  maven:
-      url: https://bintray.com/arteam/maven/jdit
 ## 0.7
 - name: dropwizard-guice
   url: https://github.com/HubSpot/dropwizard-guice
