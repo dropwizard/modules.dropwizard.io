@@ -1,3 +1,10 @@
+- name: dropwizard-gelf
+  url: https://github.com/gini/dropwizard-gelf
+  description: Support for logging to a GELF-enabled server like Graylog2 or logstash
+  dropwizard: 1.0
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/net.gini.dropwizard/dropwizard-gelf
 - name: jdit
   url: https://github.com/arteam/jdit
   description: "Integration testing of JDBI DAO's in Dropwizard"
@@ -268,13 +275,6 @@
   license: Apache 2.0
   maven:
     url: http://mvnrepository.com/artifact/org.stuartgunter/dropwizard-cassandra
-- name: dropwizard-gelf
-  url: https://github.com/gini/dropwizard-gelf
-  description: Support for logging to a GELF-enabled server like Graylog2 or logstash
-  dropwizard: 0.7
-  license: Apache 2.0
-  maven:
-    url: http://mvnrepository.com/artifact/net.gini.dropwizard/dropwizard-gelf
 - name: dropwizardry-guice
   url: https://github.com/jclawson/dropwizardry
   description: Sensible Guice support for Dropwizard
