@@ -12,6 +12,33 @@
   license: MIT
   maven:
       url: https://bintray.com/arteam/maven/jdit
+- name: dropwizard-consul
+  url: https://github.com/smoketurner/dropwizard-consul
+  description: Consul support with Dropwizard
+  dropwizard: 1.0.0
+  license: Apache 2.0
+  maven:
+    url: http://central.maven.org/maven2/com/smoketurner/dropwizard/consul-core/
+    groupId: com.smoketurner.dropwizard
+    artifactId: consul-core
+- name: dropwizard-swagger
+  url: https://github.com/smoketurner/dropwizard-swagger
+  description: A Dropwizard bundle that serves Swagger UI static content and loads Swagger endpoints.
+  dropwizard: 1.0.0
+  license: Apache 2.0
+  maven:
+    url: http://central.maven.org/maven2/com/smoketurner/dropwizard-swagger/
+    groupId: com.smoketurner
+    artifactId: dropwizard-swagger
+- name: dropwizard-zipkin
+  url: https://github.com/smoketurner/dropwizard-zipkin
+  description: Zipkin span/trace instrumentation for Dropwizard
+  dropwizard: 1.0.0
+  license: Apache 2.0
+  maven:
+    url: http://central.maven.org/maven2/com/smoketurner/dropwizard/zipkin-core/
+    groupId: com.smoketurner.dropwizard
+    artifactId: zipkin-core
 # 0.9
 - name: dropwizard-petite
   url: https://github.com/mtakaki/dropwizard-petite
@@ -49,15 +76,6 @@
     url: http://dl.bintray.com/palantir/releases/com/palantir/versioninfo/dropwizard-version-info/
     groupId: com.palantir.versioninfo
     artifactId: dropwizard-version-info
-- name: dropwizard-consul
-  url: https://github.com/smoketurner/dropwizard-consul
-  description: Consul support with Dropwizard
-  dropwizard: 0.9.2
-  license: Apache 2.0
-  maven:
-    url: http://central.maven.org/maven2/com/smoketurner/dropwizard/consul-core/
-    groupId: com.smoketurner.dropwizard
-    artifactId: consul-core
 - name: dropwizard-index-page
   url: https://github.com/palantir/dropwizard-index-page
   description: A bundle that serves the index page for a single page application
@@ -67,15 +85,7 @@
     url: http://dl.bintray.com/palantir/releases/com/palantir/indexpage/dropwizard-index-page/
     groupId: com.palantir.indexpage
     artifactId: dropwizard-index-page
-- name: dropwizard-swagger
-  url: https://github.com/smoketurner/dropwizard-swagger
-  description: A Dropwizard bundle that serves Swagger UI static content and loads Swagger endpoints.
-  dropwizard: 0.9.2
-  license: Apache 2.0
-  maven:
-    url: http://central.maven.org/maven2/com/smoketurner/dropwizard-swagger/
-    groupId: com.smoketurner
-    artifactId: dropwizard-swagger
+
 - name: dropwizard-web-security
   url: https://github.com/palantir/dropwizard-web-security
   description: A bundle for applying default web security functionality to a dropwizard application.
@@ -85,15 +95,6 @@
     url: http://dl.bintray.com/palantir/releases/com/palantir/websecurity/dropwizard-web-security/
     groupId: com.palantir.websecurity
     artifactId: dropwizard-web-security
-- name: dropwizard-zipkin
-  url: https://github.com/smoketurner/dropwizard-zipkin
-  description: Zipkin span/trace instrumentation for Dropwizard
-  dropwizard: 0.9.2
-  license: Apache 2.0
-  maven:
-    url: http://central.maven.org/maven2/com/smoketurner/dropwizard/zipkin-core/
-    groupId: com.smoketurner.dropwizard
-    artifactId: zipkin-core
 - name: dropwizard-circuitbreaker
   url: https://github.com/mtakaki/dropwizard-circuitbreaker
   description: Simple implementation of circuit breaker design pattern using annotations.
