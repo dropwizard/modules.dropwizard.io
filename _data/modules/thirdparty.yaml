@@ -1,6 +1,6 @@
 - name: jdit
   url: https://github.com/arteam/jdit
-  description: Integration testing of JDBI DAO's in Dropwizard
+  description: "Integration testing of JDBI DAO's in Dropwizard"
   dropwizard: 1.0.0
   license: MIT
   maven:
@@ -474,7 +474,7 @@
     url: http://mvnrepository.com/artifact/com.datasift.dropwizard/dropwizard-extra-kafka
 - name: dropwizard-extra-curator
   url: https://datasift.github.io/dropwizard-extra/dropwizard-extra-curator/
-  description: Dropwizard integration for working with ZooKeeper using Netflix's Curator client
+  description: "Dropwizard integration for working with ZooKeeper using Netflix's Curator client"
   dropwizard: 0.6
   license: Apache 2.0
   maven:
