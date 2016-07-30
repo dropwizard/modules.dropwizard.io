@@ -1,7 +1,7 @@
 - name: dropwizard-discovery
   url: https://github.com/dropwizard/dropwizard-discovery
   description: A Dropwizard bundle that registers into Zookeeper for service discovery
-  dropwizard: 0.9
+  dropwizard: 1.0
   license: Apache 2.0
   maven:
     url: http://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-discovery
