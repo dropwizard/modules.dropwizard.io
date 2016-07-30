@@ -10,7 +10,7 @@
 - name: dropwizard-elasticsearch
   url: https://github.com/dropwizard/dropwizard-elasticsearch
   description: Support for Elasticsearch
-  dropwizard: 0.9
+  dropwizard: 1.0
   license: Apache 2.0
   maven:
     url: http://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-elasticsearch
@@ -19,7 +19,7 @@
 - name: dropwizard-flyway
   url: https://github.com/dropwizard/dropwizard-flyway
   description: Flyway for database migrations
-  dropwizard: 0.9
+  dropwizard: 1.0
   license: Apache 2.0
   maven:
     url: http://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-flyway
