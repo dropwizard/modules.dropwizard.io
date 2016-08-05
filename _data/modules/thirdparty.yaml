@@ -1,18 +1,25 @@
 # 1.0
-- name: dropwizard-gelf
-  url: https://github.com/gini/dropwizard-gelf
-  description: Support for logging to a GELF-enabled server like Graylog2 or logstash
+- name: dropwizard-auth-ms-ad
+  url: https://github.com/commercehub-oss/dropwizard-auth-ms-ad
+  description: A Dropwizard authn/authz module for Microsoft Active Directory
   dropwizard: 1.0.0
   license: Apache 2.0
   maven:
-    url: http://mvnrepository.com/artifact/net.gini.dropwizard/dropwizard-gelf
-- name: jdit
-  url: https://github.com/arteam/jdit
-  description: "Integration testing of JDBI DAO's in Dropwizard"
+    url: https://bintray.com/commercehub-oss/main/dropwizard-auth-active-directory/view
+- name: dropwizard-buildinfo
+  url: https://github.com/commercehub-oss/dropwizard-buildinfo
+  description: A library that supports exposure of build info in Dropwizard applications
   dropwizard: 1.0.0
-  license: MIT
+  license: Apache 2.0
   maven:
-      url: https://bintray.com/arteam/maven/jdit
+    url: https://bintray.com/commercehub-oss/main/dropwizard-buildinfo/view
+- name: dropwizard-camel
+  url: https://github.com/commercehub-oss/dropwizard-camel
+  description: A collection of libraries that support using Apache Camel in Dropwizard applications
+  dropwizard: 1.0.0
+  license: Apache 2.0
+  maven:
+    url: https://bintray.com/commercehub-oss/main/dropwizard-camel-core/view
 - name: dropwizard-consul
   url: https://github.com/smoketurner/dropwizard-consul
   description: Consul support with Dropwizard
@@ -22,6 +29,25 @@
     url: http://central.maven.org/maven2/com/smoketurner/dropwizard/consul-core/
     groupId: com.smoketurner.dropwizard
     artifactId: consul-core
+- name: dropwizard-gelf
+  url: https://github.com/gini/dropwizard-gelf
+  description: Support for logging to a GELF-enabled server like Graylog2 or logstash
+  dropwizard: 1.0.0
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/net.gini.dropwizard/dropwizard-gelf
+- name: dropwizard-jclouds
+  url: https://github.com/commercehub-oss/dropwizard-jclouds
+  description: A collection of libraries that support using Apache jclouds in Dropwizard applications
+  dropwizard: 1.0.0
+  license: Apache 2.0
+- name: dropwizard-mongo
+  url: https://github.com/commercehub-oss/dropwizard-mongo
+  description: A library that supports using MongoDB for data persistence in Dropwizard applications
+  dropwizard: 1.0.0
+  license: Apache 2.0
+  maven:
+    url: https://bintray.com/commercehub-oss/main/dropwizard-mongo/view
 - name: dropwizard-swagger
   url: https://github.com/smoketurner/dropwizard-swagger
   description: A Dropwizard bundle that serves Swagger UI static content and loads Swagger endpoints.
@@ -40,39 +66,13 @@
     url: http://central.maven.org/maven2/com/smoketurner/dropwizard/zipkin-core/
     groupId: com.smoketurner.dropwizard
     artifactId: zipkin-core
-- name: dropwizard-buildinfo
-  url: https://github.com/commercehub-oss/dropwizard-buildinfo
-  description: A library that supports exposure of build info in Dropwizard applications
+- name: jdit
+  url: https://github.com/arteam/jdit
+  description: "Integration testing of JDBI DAO's in Dropwizard"
   dropwizard: 1.0.0
-  license: Apache 2.0
+  license: MIT
   maven:
-    url: https://bintray.com/commercehub-oss/main/dropwizard-buildinfo/view
-- name: dropwizard-auth-ms-ad
-  url: https://github.com/commercehub-oss/dropwizard-auth-ms-ad
-  description: A Dropwizard authn/authz module for Microsoft Active Directory
-  dropwizard: 1.0.0
-  license: Apache 2.0
-  maven:
-    url: https://bintray.com/commercehub-oss/main/dropwizard-auth-active-directory/view
-- name: dropwizard-camel
-  url: https://github.com/commercehub-oss/dropwizard-camel
-  description: A collection of libraries that support using Apache Camel in Dropwizard applications
-  dropwizard: 1.0.0
-  license: Apache 2.0
-  maven:
-    url: https://bintray.com/commercehub-oss/main/dropwizard-camel-core/view
-- name: dropwizard-jclouds
-  url: https://github.com/commercehub-oss/dropwizard-jclouds
-  description: A collection of libraries that support using Apache jclouds in Dropwizard applications
-  dropwizard: 1.0.0
-  license: Apache 2.0
-- name: dropwizard-mongo
-  url: https://github.com/commercehub-oss/dropwizard-mongo
-  description: A library that supports using MongoDB for data persistence in Dropwizard applications
-  dropwizard: 1.0.0
-  license: Apache 2.0
-  maven:
-    url: https://bintray.com/commercehub-oss/main/dropwizard-mongo/view    
+    url: https://bintray.com/arteam/maven/jdit
 # 0.9
 - name: dropwizard-petite
   url: https://github.com/mtakaki/dropwizard-petite
