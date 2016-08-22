@@ -82,6 +82,13 @@
     url: https://repo1.maven.org/maven2/de/ahus1/keycloak/dropwizard/keycloak-dropwizard/
     groupId: de.ahus1.keycloak.dropwizard
     artifactId: keycloak-dropwizard
+- name: dropwizard-guicey
+  url: https://github.com/xvik/dropwizard-guicey
+  description: Flexible guice integration.
+  dropwizard: 1.0.0
+  license: MIT
+  maven:
+    url: http://mvnrepository.com/artifact/ru.vyarus/dropwizard-guicey
 # 0.9
 - name: dropwizard-petite
   url: https://github.com/mtakaki/dropwizard-petite
@@ -409,13 +416,6 @@
   license: Apache 2.0
   maven:
     url: http://mvnrepository.com/artifact/com.jamierf.dropwizard/dropwizard-debpkg-maven-plugin
-- name: dropwizard-guicey
-  url: https://github.com/xvik/dropwizard-guicey
-  description: Flexible guice integration.
-  dropwizard: 0.7, 0.8
-  license: MIT
-  maven:
-    url: http://mvnrepository.com/artifact/ru.vyarus/dropwizard-guicey
 - name: dropwizard-orient-server
   url: https://github.com/xvik/dropwizard-orient-server
   description: Embedded OrientDB server for dropwizard.
