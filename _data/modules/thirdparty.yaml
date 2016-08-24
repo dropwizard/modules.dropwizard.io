@@ -89,6 +89,14 @@
   license: MIT
   maven:
     url: http://mvnrepository.com/artifact/ru.vyarus/dropwizard-guicey
+- name: kafka-dropwizard-reporter
+  url: https://github.com/SimpleFinance/kafka-dropwizard-reporter
+  description: Register built-in Kafka client metrics to Dropwizard Metrics
+  dropwizard: 1.0.0, 0.7+
+  license: Apache 2.0
+  maven:
+    url: https://mvnrepository.com/artifact/com.simple/kafka-dropwizard-reporter
+
 # 0.9
 - name: dropwizard-petite
   url: https://github.com/mtakaki/dropwizard-petite
