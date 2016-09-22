@@ -1,4 +1,15 @@
-# 1.0
+## Modules should list all major Dropwizard versions on which they work
+## and have been tested.
+##
+## Modules are organized into sections based on the most recent major
+## Dropwizard release they support. Within a section, individual modules
+## should be listed in alphabetical order.
+##
+## It is the responsibility of individual package maintainers to confirm
+## compatibility with new Dropwizard releases and to issue new PRs to this
+## repository to update compatibility info.
+
+## Bundles that have been tested on Dropwizard 1.0
 - name: dropwizard-auth-ms-ad
   url: https://github.com/commercehub-oss/dropwizard-auth-ms-ad
   description: A Dropwizard authn/authz module for Microsoft Active Directory
@@ -97,7 +108,7 @@
   maven:
     url: http://mvnrepository.com/artifact/de.thomaskrille/dropwizard-template-config
 
-# 0.9
+## Bundles that have been tested on Dropwizard 0.9
 - name: dropwizard-petite
   url: https://github.com/mtakaki/dropwizard-petite
   description: Light-weight dependency injection using Jodd Petite
@@ -143,7 +154,6 @@
     url: http://dl.bintray.com/palantir/releases/com/palantir/indexpage/dropwizard-index-page/
     groupId: com.palantir.indexpage
     artifactId: dropwizard-index-page
-
 - name: dropwizard-web-security
   url: https://github.com/palantir/dropwizard-web-security
   description: A bundle for applying default web security functionality to a dropwizard application.
@@ -216,7 +226,8 @@
     url: https://oss.sonatype.org/content/repositories/releases/be/tomcools/dropwizard-websocket-jee7-bundle/
     groupId: be.tomcools
     artifactId: dropwizard-websocket-jee7-bundle
-## 0.8
+
+## Bundles that have been tested on Dropwizard 0.8
 - name: encrypted-config-value-bundle
   url: https://github.com/palantir/encrypted-config-value
   description: support substituting encrypted values into configuration using standard `\${...}` syntax
@@ -276,7 +287,8 @@
   license: Apache 2.0
   maven:
     url: http://mvnrepository.com/artifact/net.eldeen.dropwizard/cf-signal-resource-bundle
-## 0.7
+
+## Bundles that have been tested on Dropwizard 0.7
 - name: dropwizard-guice
   url: https://github.com/HubSpot/dropwizard-guice
   description: Support for Google Guice
@@ -446,7 +458,7 @@
   maven:
     url: https://bintray.com/yunspace/dropwizard/dropwizard-xml/view
 
-## Dropwizard 0.6.x
+## Bundles that have been tested on Dropwizard 0.6
 - name: dropwizard-extra-core
   url: https://datasift.github.io/dropwizard-extra/dropwizard-extra-core/
   description: Some useful additions to Dropwizard that have no external dependencies
