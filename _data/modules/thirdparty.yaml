@@ -107,6 +107,15 @@
   license: Apache 2.0
   maven:
     url: http://mvnrepository.com/artifact/de.thomaskrille/dropwizard-template-config
+- name: rx-jersey
+  url: https://github.com/alex-shpak/rx-jersey/
+  description: RxJava support for resources and client with dropwizard bundle
+  dropwizard: 1.0.0
+  license: MIT
+  maven:
+    url: https://jitpack.io/#alex-shpak/rx-jersey
+    groupId: com.github.alex-shpak.rx-jersey
+    artifactId: dropwizard
 
 ## Bundles that have been tested on Dropwizard 0.9
 - name: dropwizard-petite
