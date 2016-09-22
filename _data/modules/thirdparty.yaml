@@ -89,6 +89,14 @@
   license: MIT
   maven:
     url: http://mvnrepository.com/artifact/ru.vyarus/dropwizard-guicey
+- name: dropwizard-template-config
+  url: https://github.com/tkrille/dropwizard-template-config
+  description: Dropwizard bundle that enables you to write your config.yaml as a Freemarker template.
+  dropwizard: 0.7, 0.8, 0.9, 1.0.0
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/de.thomaskrille/dropwizard-template-config
+
 # 0.9
 - name: dropwizard-petite
   url: https://github.com/mtakaki/dropwizard-petite
@@ -437,13 +445,6 @@
   license: Apache 2.0
   maven:
     url: https://bintray.com/yunspace/dropwizard/dropwizard-xml/view
-- name: dropwizard-template-config
-  url: https://github.com/tkrille/dropwizard-template-config
-  description: Dropwizard bundle that enables you to write your config.yaml as a Freemarker template.
-  dropwizard: 0.7, 0.8
-  license: Apache 2.0
-  maven:
-    url: http://mvnrepository.com/artifact/de.thomaskrille/dropwizard-template-config
 
 ## Dropwizard 0.6.x
 - name: dropwizard-extra-core
