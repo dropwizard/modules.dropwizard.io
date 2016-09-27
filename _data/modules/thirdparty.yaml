@@ -13,7 +13,7 @@
 - name: encrypted-config-value-bundle
   url: https://github.com/palantir/encrypted-config-value
   description: support substituting encrypted values into configuration using standard `\${...}` syntax
-  dropwizard: 0.8
+  dropwizard: 1.0.0
   license: Apache 2.0
   maven:
     url: https://dl.bintray.com/bintray/jcenter/com/palantir/config/crypto/encrypted-config-value-bundle/
