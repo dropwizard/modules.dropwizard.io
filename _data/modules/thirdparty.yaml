@@ -10,6 +10,51 @@
 ## repository to update compatibility info.
 
 ## Bundles that have been tested on Dropwizard 1.0
+- name: encrypted-config-value-bundle
+  url: https://github.com/palantir/encrypted-config-value
+  description: support substituting encrypted values into configuration using standard `\${...}` syntax
+  dropwizard: 0.8
+  license: Apache 2.0
+  maven:
+    url: https://dl.bintray.com/bintray/jcenter/com/palantir/config/crypto/encrypted-config-value-bundle/
+    groupId: com.palantir.config.crypto
+    artifactId: encrypted-config-value-bundle
+- name: dropwizard-web-logger
+  url: https://github.com/palantir/dropwizard-web-logger
+  description: Used to help log web activity to log files on a server’s backend
+  dropwizard: 1.0.0
+  license: Apache 2.0
+  maven:
+    url: http://dl.bintray.com/palantir/releases/com/palantir/weblogger/dropwizard-web-logger/
+    groupId: com.palantir.weblogger
+    artifactId: dropwizard-web-logger
+- name: dropwizard-version-info
+  url: https://github.com/palantir/dropwizard-version-info
+  description: Exposes a version string as a Jersey resource under `/version`
+  dropwizard: 1.0.0
+  license: Apache 2.0
+  maven:
+    url: http://dl.bintray.com/palantir/releases/com/palantir/versioninfo/dropwizard-version-info/
+    groupId: com.palantir.versioninfo
+    artifactId: dropwizard-version-info
+- name: dropwizard-index-page
+  url: https://github.com/palantir/dropwizard-index-page
+  description: A bundle that serves the index page for a single page application
+  dropwizard: 1.0.0
+  license: Apache 2.0
+  maven:
+    url: http://dl.bintray.com/palantir/releases/com/palantir/indexpage/dropwizard-index-page/
+    groupId: com.palantir.indexpage
+    artifactId: dropwizard-index-page
+- name: dropwizard-web-security
+  url: https://github.com/palantir/dropwizard-web-security
+  description: A bundle for applying default web security functionality to a dropwizard application.
+  dropwizard: 1.0.0
+  license: Apache 2.0
+  maven:
+    url: http://dl.bintray.com/palantir/releases/com/palantir/websecurity/dropwizard-web-security/
+    groupId: com.palantir.websecurity
+    artifactId: dropwizard-web-security
 - name: dropwizard-auth-ms-ad
   url: https://github.com/commercehub-oss/dropwizard-auth-ms-ad
   description: A Dropwizard authn/authz module for Microsoft Active Directory
@@ -136,42 +181,6 @@
     url: http://central.maven.org/maven2/com/github/toastshaman/dropwizard-auth-jwt/
     groupId: com.github.toastshaman
     artifactId: dropwizard-auth-jwt
-- name: dropwizard-web-logger
-  url: https://github.com/palantir/dropwizard-web-logger
-  description: Used to help log web activity to log files on a server’s backend
-  dropwizard: 0.9.2
-  license: Apache 2.0
-  maven:
-    url: http://dl.bintray.com/palantir/releases/com/palantir/weblogger/dropwizard-web-logger/
-    groupId: com.palantir.weblogger
-    artifactId: dropwizard-web-logger
-- name: dropwizard-version-info
-  url: https://github.com/palantir/dropwizard-version-info
-  description: Exposes a version string as a Jersey resource under `/version`
-  dropwizard: 0.9.2
-  license: Apache 2.0
-  maven:
-    url: http://dl.bintray.com/palantir/releases/com/palantir/versioninfo/dropwizard-version-info/
-    groupId: com.palantir.versioninfo
-    artifactId: dropwizard-version-info
-- name: dropwizard-index-page
-  url: https://github.com/palantir/dropwizard-index-page
-  description: A bundle that serves the index page for a single page application
-  dropwizard: 0.9.2
-  license: Apache 2.0
-  maven:
-    url: http://dl.bintray.com/palantir/releases/com/palantir/indexpage/dropwizard-index-page/
-    groupId: com.palantir.indexpage
-    artifactId: dropwizard-index-page
-- name: dropwizard-web-security
-  url: https://github.com/palantir/dropwizard-web-security
-  description: A bundle for applying default web security functionality to a dropwizard application.
-  dropwizard: 0.9.2
-  license: Apache 2.0
-  maven:
-    url: http://dl.bintray.com/palantir/releases/com/palantir/websecurity/dropwizard-web-security/
-    groupId: com.palantir.websecurity
-    artifactId: dropwizard-web-security
 - name: dropwizard-circuitbreaker
   url: https://github.com/mtakaki/dropwizard-circuitbreaker
   description: Simple implementation of circuit breaker design pattern using annotations.
@@ -237,15 +246,6 @@
     artifactId: dropwizard-websocket-jee7-bundle
 
 ## Bundles that have been tested on Dropwizard 0.8
-- name: encrypted-config-value-bundle
-  url: https://github.com/palantir/encrypted-config-value
-  description: support substituting encrypted values into configuration using standard `\${...}` syntax
-  dropwizard: 0.8
-  license: Apache 2.0
-  maven:
-    url: https://dl.bintray.com/bintray/jcenter/com/palantir/config/crypto/encrypted-config-value-bundle/
-    groupId: com.palantir.config.crypto
-    artifactId: encrypted-config-value-bundle
 - name: comsat-dropwizard
   url: http://docs.paralleluniverse.co/comsat/#dropwizard
   description: Handle many more concurrent requests with Dropwizard by replacing heavyweight Java threads with featherweight Quasar fibers
