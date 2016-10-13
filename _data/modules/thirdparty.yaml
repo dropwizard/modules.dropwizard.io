@@ -531,3 +531,10 @@
   license: Apache 2.0
   maven:
     url: http://mvnrepository.com/artifact/com.fiestacabin.dropwizard.guice/dropwizard-guice
+- name: dropwizard-raven
+  url: https://github.com/tradier/dropwizard-raven
+  description: Dropwizard integration for error logging to Sentry
+  dropwizard: 1.0
+  license: MIT
+  maven:
+    url: http://mvnrepository.com/artifact/com.tradier/dropwizard-raven
