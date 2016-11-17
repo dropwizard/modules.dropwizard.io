@@ -10,6 +10,15 @@
 ## repository to update compatibility info.
 
 ## Bundles that have been tested on Dropwizard 1.0
+- name: dropwizard-pac4j
+  url: https://github.com/pac4j/dropwizard-pac4j
+  description: A Dropwizard bundle for securing REST endpoints using pac4j
+  dropwizard: 1.0.3
+  license: Apache 2.0
+  maven:
+    url: http://central.maven.org/maven2/org/pac4j/dropwizard-pac4j/
+    grouId: org.pac4j
+    artifactId: dropwizard-pac4j
 - name: encrypted-config-value-bundle
   url: https://github.com/palantir/encrypted-config-value
   description: support substituting encrypted values into configuration using standard `\${...}` syntax
