@@ -10,6 +10,15 @@
 ## repository to update compatibility info.
 
 ## Bundles that have been tested on Dropwizard 1.0
+- name: dropwizard-graphql
+  url: https://github.com/smoketurner/dropwizard-graphql
+  description: GraphQL support for Dropwizard
+  dropwizard: 1.0.5
+  license: Apache 2.0
+  maven:
+    url: http://central.maven.org/maven2/com/smoketurner/dropwizard/graphql-core/
+    groupId: com.smoketurner.dropwizard
+    artifactId: graphql-core
 - name: dropwizard-pac4j
   url: https://github.com/pac4j/dropwizard-pac4j
   description: A Dropwizard bundle for securing REST endpoints using pac4j
