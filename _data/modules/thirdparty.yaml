@@ -565,3 +565,10 @@
   license: MIT
   maven:
     url: http://mvnrepository.com/artifact/com.tradier/dropwizard-raven
+  name: btm-DropwizardHealthChecks
+  url: https://github.com/BreakTheMonolith/btm-DropwizardHealthChecks
+  description: Provides pre-written health checks for JDBC supported databases, dependent Http(s) services, and more
+  dropwizard: 1.0
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/guru.breakthemonolith/btm-DropwizardHealthChecks
