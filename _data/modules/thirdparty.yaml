@@ -19,6 +19,15 @@
     url: http://central.maven.org/maven2/com/smoketurner/dropwizard/graphql-core/
     groupId: com.smoketurner.dropwizard
     artifactId: graphql-core
+- name: dropwizard-jwt-cookie-authentication
+  url: https://github.com/dhatim/dropwizard-jwt-cookie-authentication
+  description: A bundle to authenticate requests from JWT cookies
+  dropwizard: 1.0.3
+  license: Apache 2.0
+  maven:
+    url: http://central.maven.org/maven2/org/dhatim/dropwizard-jwt-cookie-authentication/
+    groupId: org.dhatim
+    artifactId: dropwizard-jwt-cookie-authentication
 - name: dropwizard-pac4j
   url: https://github.com/pac4j/dropwizard-pac4j
   description: A Dropwizard bundle for securing REST endpoints using pac4j
