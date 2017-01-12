@@ -19,6 +19,24 @@
     url: http://central.maven.org/maven2/com/smoketurner/dropwizard/graphql-core/
     groupId: com.smoketurner.dropwizard
     artifactId: graphql-core
+- name: rx-jersey
+  url: https://github.com/alex-shpak/rx-jersey/
+  description: RxJava support for resources and client with dropwizard bundle
+  dropwizard: 1.0.5
+  license: MIT
+  maven:
+    url: https://jitpack.io/#alex-shpak/rx-jersey
+    groupId: com.github.alex-shpak.rx-jersey
+    artifactId: dropwizard
+- name: dropwizard-hk2bundle
+  url: https://github.com/alex-shpak/dropwizard-hk2bundle
+  description: HK2 DI support and auto-discovery for HealthChecks, Lifecycle objects and other services
+  dropwizard: 1.0.5
+  license: MIT
+  maven:
+    url: https://jitpack.io/#alex-shpak/dropwizard-hk2bundle
+    groupId: com.github.alex-shpak
+    artifactId: dropwizard-hk2bundle
 - name: dropwizard-jwt-cookie-authentication
   url: https://github.com/dhatim/dropwizard-jwt-cookie-authentication
   description: A bundle to authenticate requests from JWT cookies
@@ -179,15 +197,6 @@
   license: Apache 2.0
   maven:
     url: http://mvnrepository.com/artifact/de.thomaskrille/dropwizard-template-config
-- name: rx-jersey
-  url: https://github.com/alex-shpak/rx-jersey/
-  description: RxJava support for resources and client with dropwizard bundle
-  dropwizard: 1.0.0
-  license: MIT
-  maven:
-    url: https://jitpack.io/#alex-shpak/rx-jersey
-    groupId: com.github.alex-shpak.rx-jersey
-    artifactId: dropwizard
 - name: dropwizard-entitymanager
   url: https://github.com/scottescue/dropwizard-entitymanager
   description: Provides managed, easy-to-configure access to Hibernate JPA. Supports declarative transactions with the @UnitOfWork annotation.
