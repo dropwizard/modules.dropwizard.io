@@ -9,6 +9,17 @@
 ## compatibility with new Dropwizard releases and to issue new PRs to this
 ## repository to update compatibility info.
 
+## Bundles that have been tested on Dropwizard 1.1
+- name: dropwizard-keycloak
+  url: https://github.com/ahus1/keycloak-dropwizard-integration/
+  description: Integration of OAuth2 and OpenID Connect by using JBoss Keycloak
+  dropwizard: 1.0.6, 1.1.0
+  license: Apache 2.0
+  maven:
+    url: https://repo1.maven.org/maven2/de/ahus1/keycloak/dropwizard/keycloak-dropwizard/
+    groupId: de.ahus1.keycloak.dropwizard
+    artifactId: keycloak-dropwizard
+
 ## Bundles that have been tested on Dropwizard 1.0
 - name: dropwizard-graphql
   url: https://github.com/smoketurner/dropwizard-graphql
@@ -174,15 +185,6 @@
   license: MIT
   maven:
     url: https://bintray.com/arteam/maven/jdit
-- name: dropwizard-keycloak
-  url: https://github.com/ahus1/keycloak-dropwizard-integration/
-  description: Integration of OAuth2 and OpenID Connect by using JBoss Keycloak
-  dropwizard: 1.0.0
-  license: Apache 2.0
-  maven:
-    url: https://repo1.maven.org/maven2/de/ahus1/keycloak/dropwizard/keycloak-dropwizard/
-    groupId: de.ahus1.keycloak.dropwizard
-    artifactId: keycloak-dropwizard
 - name: dropwizard-guicey
   url: https://github.com/xvik/dropwizard-guicey
   description: Flexible guice integration.
