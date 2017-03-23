@@ -19,6 +19,13 @@
     url: https://repo1.maven.org/maven2/de/ahus1/keycloak/dropwizard/keycloak-dropwizard/
     groupId: de.ahus1.keycloak.dropwizard
     artifactId: keycloak-dropwizard
+- name: dropwizard-gelf
+  url: https://github.com/gini/dropwizard-gelf
+  description: Support for logging to a GELF-enabled server like Graylog or logstash
+  dropwizard: 1.0.0, 1.1.0
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/net.gini.dropwizard/dropwizard-gelf
 
 ## Bundles that have been tested on Dropwizard 1.0
 - name: dropwizard-graphql
@@ -141,13 +148,6 @@
     url: http://central.maven.org/maven2/com/smoketurner/dropwizard/consul-core/
     groupId: com.smoketurner.dropwizard
     artifactId: consul-core
-- name: dropwizard-gelf
-  url: https://github.com/gini/dropwizard-gelf
-  description: Support for logging to a GELF-enabled server like Graylog2 or logstash
-  dropwizard: 1.0.0
-  license: Apache 2.0
-  maven:
-    url: http://mvnrepository.com/artifact/net.gini.dropwizard/dropwizard-gelf
 - name: dropwizard-jclouds
   url: https://github.com/commercehub-oss/dropwizard-jclouds
   description: A collection of libraries that support using Apache jclouds in Dropwizard applications
