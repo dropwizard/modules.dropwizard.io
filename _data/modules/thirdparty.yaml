@@ -10,6 +10,13 @@
 ## repository to update compatibility info.
 
 ## Bundles that have been tested on Dropwizard 1.1
+- name: dropwizard-morphia
+  url: https://github.com/serhuz/dropwizard-morphia
+  description: Morphia support for Dropwizard
+  dropwizard: 1.1.0
+  license: Apache 2.0
+  maven:
+    url: https://dl.bintray.com/serhuz/maven/xyz/randomcode/dropwizard-morphia/
 - name: ratelimitj-dropwizard
   url: https://github.com/mokies/ratelimitj/tree/master/ratelimitj-dropwizard
   description: A Dropwizard rate limiting bundle that provides extensible storage and configuration
