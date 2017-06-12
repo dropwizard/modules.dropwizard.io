@@ -72,7 +72,7 @@
 - name: dropwizard-jwt-cookie-authentication
   url: https://github.com/dhatim/dropwizard-jwt-cookie-authentication
   description: A bundle to authenticate requests from JWT cookies
-  dropwizard: 1.0.3
+  dropwizard: 1.1.1
   license: Apache 2.0
   maven:
     url: http://central.maven.org/maven2/org/dhatim/dropwizard-jwt-cookie-authentication/
