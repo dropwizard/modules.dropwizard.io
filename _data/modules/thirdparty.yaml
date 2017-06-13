@@ -236,6 +236,15 @@
   license: Apache 2.0
   maven:
     url: http://mvnrepository.com/artifact/guru.breakthemonolith/btm-DropwizardHealthChecks
+- name: dropwizard-prometheus
+  url: http://github.com/dhatim/dropwizard-prometheus
+  description: Provides easy-to-configure push or pull metrics communcation with Prometheus
+  dropwizard: 1.0
+  license: Apache 2.0
+  maven:
+    url: http://central.maven.org/maven2/org/dhatim/dropwizard-prometheus
+    groupId: org.dhatim
+    artifactId: dropwizard-prometheus
 
 ## Bundles that have been tested on Dropwizard 0.9
 - name: dropwizard-petite
