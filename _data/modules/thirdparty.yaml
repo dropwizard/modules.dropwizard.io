@@ -10,6 +10,15 @@
 ## repository to update compatibility info.
 
 ## Bundles that have been tested on Dropwizard 1.1
+- name: hystrix-dropwzard-bundle
+  url: https://github.com/zapodot/hystrix-dropwizard-bundle
+  description: easy Hystrix eventstream bundle for DropWizard
+  dropwizard: 1.1.1
+  license: Apache 2.0
+  maven:
+    url: http://central.maven.org/maven2/org/zapodot/hystrix-dropwizard-bundle/
+    groupId: org.zapodot
+    artifactId: hystrix-dropwizard-bundle
 - name: dropwizard-morphia
   url: https://github.com/serhuz/dropwizard-morphia
   description: Morphia support for Dropwizard
@@ -292,15 +301,6 @@
     url: http://central.maven.org/maven2/com/github/mtakaki/dropwizard-hikaricp/
     groupId: com.github.mtakaki
     artifactId: dropwizard-hikaricp
-- name: hystrix-dropwzard-bundle
-  url: https://github.com/zapodot/hystrix-dropwizard-bundle
-  description: easy Hystrix eventstream bundle for DropWizard
-  dropwizard: 0.9.1
-  license: Apache 2.0
-  maven:
-    url: http://central.maven.org/maven2/org/zapodot/hystrix-dropwizard-bundle/
-    groupId: org.zapodot
-    artifactId: hystrix-dropwizard-bundle
 - name: dropwizard-websockets
   url: https://github.com/LivePersonInc/dropwizard-websockets
   description: websockets support including metrics
