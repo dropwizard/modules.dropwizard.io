@@ -10,6 +10,15 @@
 ## repository to update compatibility info.
 
 ## Bundles that have been tested on Dropwizard 1.1
+- name: tenacity
+  url: https://github.com/yammer/tenacity
+  description: Dropwizard + Tenacity
+  dropwizard: 1.1.2, 0.9.3, 0.8.5, 0.7.1
+  license: Apache 2.0
+  maven:
+    url: http://central.maven.org/maven2/com/yammer/tenacity/
+    groupId: com.yammer.tenacity
+    artifactId: tenacity-core
 - name: hystrix-dropwzard-bundle
   url: https://github.com/zapodot/hystrix-dropwizard-bundle
   description: easy Hystrix eventstream bundle for DropWizard
