@@ -10,6 +10,15 @@
 ## repository to update compatibility info.
 
 ## Bundles that have been tested on Dropwizard 1.1
+- name: tenacity
+  url: https://github.com/yammer/tenacity
+  description: Dropwizard + Tenacity
+  dropwizard: 1.1.2, 0.9.3, 0.8.5, 0.7.1
+  license: Apache 2.0
+  maven:
+    url: http://central.maven.org/maven2/com/yammer/tenacity/
+    groupId: com.yammer.tenacity
+    artifactId: tenacity-core
 - name: dropwizard-auth-ldap
   url: https://github.com/yammer/dropwizard-auth-ldap
   description: Dropwizard Authentication Module for LDAP using JNDI.
@@ -319,15 +328,6 @@
     url: https://repo1.maven.org/maven2/com/liveperson/dropwizard-websockets/
     groupId: com.liveperson
     artifactId: dropwizard-websockets
-- name: tenacity
-  url: https://github.com/yammer/tenacity
-  description: Hystrix support for Dropwizard
-  dropwizard: 0.9.1
-  license: Apache 2.0
-  maven:
-    url: https://repo1.maven.org/maven2/com/yammer/tenacity/
-    groupId: com.yammer.tenacity
-    artifactId: tenacity-core
 - name: dropwizard-websocket-jee7
   url: https://github.com/TomCools/dropwizard-websocket-jee7-bundle
   description: A bundle that adds support for the JSR 356 Websocket specification.
