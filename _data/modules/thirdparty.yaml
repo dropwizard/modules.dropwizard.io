@@ -19,6 +19,15 @@
     url: http://central.maven.org/maven2/com/yammer/tenacity/
     groupId: com.yammer.tenacity
     artifactId: tenacity-core
+- name: dropwizard-auth-ldap
+  url: https://github.com/yammer/dropwizard-auth-ldap
+  description: Dropwizard Authentication Module for LDAP using JNDI.
+  dropwizard: 1.1.2
+  license: Apache 2.0
+  maven:
+    url: http://central.maven.org/maven2/com/yammer/dropwizard/dropwizard-auth-ldap/
+    groupId: com.yammer.dropwizard
+    artifactId: dropwizard-auth-ldap
 - name: hystrix-dropwzard-bundle
   url: https://github.com/zapodot/hystrix-dropwizard-bundle
   description: easy Hystrix eventstream bundle for DropWizard
@@ -451,13 +460,6 @@
   license: LGPL3
   maven:
     url: http://mvnrepository.com/artifact/com.jasonclawson.dropwizardry/dropwizardry-config-hocon
-- name: dropwizard-auth-ldap
-  url: https://github.com/yammer/dropwizard-auth-ldap
-  description: Dropwizard Authentication Module for LDAP using JNDI
-  dropwizard: 0.7
-  license: Apache 2.0
-  maven:
-    url: http://mvnrepository.com/artifact/com.yammer.dropwizard/dropwizard-auth-ldap
 - name: clustermate-dropwizard
   url: https://github.com/cowtowncoder/ClusterMate
   description: Support for ClusterMate-based services
