@@ -182,11 +182,6 @@
     url: http://central.maven.org/maven2/com/smoketurner/dropwizard/consul-core/
     groupId: com.smoketurner.dropwizard
     artifactId: consul-core
-- name: dropwizard-jclouds
-  url: https://github.com/commercehub-oss/dropwizard-jclouds
-  description: A collection of libraries that support using Apache jclouds in Dropwizard applications
-  dropwizard: 1.0.0
-  license: Apache 2.0
 - name: dropwizard-mongo
   url: https://github.com/commercehub-oss/dropwizard-mongo
   description: A library that supports using MongoDB for data persistence in Dropwizard applications
