@@ -159,13 +159,6 @@
     url: http://dl.bintray.com/palantir/releases/com/palantir/websecurity/dropwizard-web-security/
     groupId: com.palantir.websecurity
     artifactId: dropwizard-web-security
-- name: dropwizard-auth-ms-ad
-  url: https://github.com/commercehub-oss/dropwizard-auth-ms-ad
-  description: A Dropwizard authn/authz module for Microsoft Active Directory
-  dropwizard: 1.0.0
-  license: Apache 2.0
-  maven:
-    url: https://bintray.com/commercehub-oss/main/dropwizard-auth-active-directory/view
 - name: dropwizard-buildinfo
   url: https://github.com/commercehub-oss/dropwizard-buildinfo
   description: A library that supports exposure of build info in Dropwizard applications
