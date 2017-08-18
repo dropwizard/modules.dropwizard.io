@@ -28,6 +28,15 @@
     url: http://central.maven.org/maven2/com/yammer/dropwizard/dropwizard-auth-ldap/
     groupId: com.yammer.dropwizard
     artifactId: dropwizard-auth-ldap
+- name: dropwizard-dashboard
+  url: https://github.com/lutzhorn/dropwizard-dashboard
+  description: Simple Admin Dashboard to visualize Health Checks and Metrics
+  dropwizard: 1.1.2
+  license: MIT
+  maven:
+    url: https://oss.sonatype.org/content/groups/public/de/lhorn/dropwizard-dashboard/
+    groupId: de.lhorn
+    artifactId: dropwizard-dashboard
 - name: hystrix-dropwzard-bundle
   url: https://github.com/zapodot/hystrix-dropwizard-bundle
   description: easy Hystrix eventstream bundle for DropWizard
