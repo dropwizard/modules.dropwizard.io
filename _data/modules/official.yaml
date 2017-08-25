@@ -34,6 +34,15 @@
     url: http://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-java8
     groupId: io.dropwizard.modules
     artifactId: dropwizard-java8
+- name: dropwizard-vavr
+  url: https://github.com/dropwizard/dropwizard-vavr
+  description: Support for Vavr
+  dropwizard: 1.1
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-vavr
+    groupId: io.dropwizard.modules
+    artifactId: dropwizard-vavr
 - name: dropwizard-protobuf
   url: https://github.com/dropwizard/dropwizard-protobuf
   description: Support for reading and writing Google Protocol Buffer objects within Dropwizard
