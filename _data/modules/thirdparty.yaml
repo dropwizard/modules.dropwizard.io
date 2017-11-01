@@ -76,6 +76,22 @@
   license: Apache 2.0
   maven:
     url: http://mvnrepository.com/artifact/net.gini.dropwizard/dropwizard-gelf
+- name: dropwizard-redirect-bundle
+  url: https://github.com/dropwizard-bundles/dropwizard-redirect-bundle
+  description: A simple bundle for Dropwizard that allows for HTTP redirects.
+  dropwizard: 1.1
+  maven:
+    url: http://mvnrepository.com/artifact/io.dropwizard-bundles/dropwizard-redirect-bundle
+    groupId: io.dropwizard-bundles
+    artifactId: dropwizard-redirect-bundle
+- name: dropwizard-webjars-bundle
+  url: https://github.com/dropwizard-bundles/dropwizard-webjars-bundle
+  description: Dropwizard bundle to make working with WebJars easier
+  dropwizard: 1.1
+  maven:
+    url: http://mvnrepository.com/artifact/io.dropwizard-bundles/dropwizard-webjars-bundle
+    groupId: io.dropwizard-bundles
+    artifactId: dropwizard-webjars-bundle
 
 ## Bundles that have been tested on Dropwizard 1.0
 - name: dropwizard-graphql
@@ -404,18 +420,6 @@
   license: Apache 2.0
   maven:
     url: http://mvnrepository.com/artifact/com.hmsonline/dropwizard-spring
-- name: dropwizard-redirect-bundle
-  url: https://github.com/bazaarvoice/dropwizard-redirect-bundle
-  description: A simple bundle for Dropwizard that allows for HTTP redirects
-  dropwizard: 0.7
-  maven:
-    url: http://mvnrepository.com/artifact/com.bazaarvoice.dropwizard/dropwizard-redirect-bundle
-- name: dropwizard-webjars-bundle
-  url: https://github.com/bazaarvoice/dropwizard-webjars-bundle
-  description: Dropwizard bundle to make working with WebJars easier
-  dropwizard: 0.7
-  maven:
-    url: http://mvnrepository.com/artifact/com.bazaarvoice.dropwizard/dropwizard-webjars-bundle
 - name: dropwizard-configurable-assets-bundle
   url: https://github.com/bazaarvoice/dropwizard-configurable-assets-bundle
   description: Implementation of the AssetBundle allowing user configuration
