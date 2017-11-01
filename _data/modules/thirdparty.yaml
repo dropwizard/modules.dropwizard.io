@@ -37,7 +37,7 @@
     url: https://oss.sonatype.org/content/groups/public/de/lhorn/dropwizard-dashboard/
     groupId: de.lhorn
     artifactId: dropwizard-dashboard
-- name: hystrix-dropwzard-bundle
+- name: hystrix-dropwizard-bundle
   url: https://github.com/zapodot/hystrix-dropwizard-bundle
   description: easy Hystrix eventstream bundle for DropWizard
   dropwizard: 1.1.1
@@ -170,14 +170,14 @@
     artifactId: dropwizard-web-security
 - name: dropwizard-buildinfo
   url: https://github.com/commercehub-oss/dropwizard-buildinfo
-  description: A library that supports exposure of build info in Dropwizard applications
+  description: Deprecated. A library that supports exposure of build info in Dropwizard applications
   dropwizard: 1.0.0
   license: Apache 2.0
   maven:
     url: https://bintray.com/commercehub-oss/main/dropwizard-buildinfo/view
 - name: dropwizard-camel
   url: https://github.com/commercehub-oss/dropwizard-camel
-  description: A collection of libraries that support using Apache Camel in Dropwizard applications
+  description: Deprecated. A collection of libraries that support using Apache Camel in Dropwizard applications
   dropwizard: 1.0.0
   license: Apache 2.0
   maven:
