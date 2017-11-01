@@ -334,6 +334,15 @@
     url: https://oss.sonatype.org/content/repositories/releases/be/tomcools/dropwizard-websocket-jee7-bundle/
     groupId: be.tomcools
     artifactId: dropwizard-websocket-jee7-bundle
+- name: dropwizard-mybatis
+  url: https://github.com/login-box/dropwizard-mybatis
+  description: Dropwizard supporting code for the Mybatis SQL mapper.
+  dropwizard: 0.8, 0.9.2
+  license: MIT
+  maven:
+    url: https://bintray.com/login-box/releases/dropwizard-mybatis/view
+    groupId: com.loginbox.mybatis
+    artifactId: dropwizard-mybatis
 
 ## Bundles that have been tested on Dropwizard 0.8
 - name: comsat-dropwizard
