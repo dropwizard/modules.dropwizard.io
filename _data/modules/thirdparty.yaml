@@ -344,7 +344,7 @@
 - name: dropwizard-websocket-jee7
   url: https://github.com/TomCools/dropwizard-websocket-jee7-bundle
   description: A bundle that adds support for the JSR 356 Websocket specification.
-  dropwizard: 0.9.1
+  dropwizard: 1.0.0
   license: Apache 2.0
   maven:
     url: https://oss.sonatype.org/content/repositories/releases/be/tomcools/dropwizard-websocket-jee7-bundle/
