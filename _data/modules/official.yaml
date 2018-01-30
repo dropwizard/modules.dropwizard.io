@@ -1,12 +1,21 @@
 - name: dropwizard-discovery
   url: https://github.com/dropwizard/dropwizard-discovery
   description: A Dropwizard bundle that registers into Zookeeper for service discovery
-  dropwizard: 1.0
+  dropwizard: 1.2.3
   license: Apache 2.0
   maven:
     url: http://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-discovery
     groupId: io.dropwizard.modules
     artifactId: dropwizard-discovery
+- name: dropwizard-protobuf
+  url: https://github.com/dropwizard/dropwizard-protobuf
+  description: Support for reading and writing Google Protocol Buffer objects within Dropwizard
+  dropwizard: 1.2.3
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-protobuf
+    groupId: io.dropwizard.modules
+    artifactId: dropwizard-protobuf
 - name: dropwizard-elasticsearch
   url: https://github.com/dropwizard/dropwizard-elasticsearch
   description: Support for Elasticsearch
@@ -43,12 +52,3 @@
     url: http://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-vavr
     groupId: io.dropwizard.modules
     artifactId: dropwizard-vavr
-- name: dropwizard-protobuf
-  url: https://github.com/dropwizard/dropwizard-protobuf
-  description: Support for reading and writing Google Protocol Buffer objects within Dropwizard
-  dropwizard: 0.9
-  license: Apache 2.0
-  maven:
-    url: http://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-protobuf
-    groupId: io.dropwizard.modules
-    artifactId: dropwizard-protobuf
