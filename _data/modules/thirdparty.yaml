@@ -9,6 +9,71 @@
 ## compatibility with new Dropwizard releases and to issue new PRs to this
 ## repository to update compatibility info.
 
+## Bundles that have been tested on Dropwizard 1.2
+- name: dropwizard-atomix
+  url: https://github.com/smoketurner/dropwizard-atomix
+  description: Atomix support for Dropwizard
+  dropwizard: 1.2.3
+  license: Apache 2.0
+  maven:
+    url: http://central.maven.org/maven2/com/smoketurner/dropwizard/atomix-core/
+    groupId: com.smoketurner.dropwizard
+    artifactId: atomix-core
+- name: dropwizard-graphql
+  url: https://github.com/smoketurner/dropwizard-graphql
+  description: GraphQL support for Dropwizard
+  dropwizard: 1.2.3
+  license: Apache 2.0
+  maven:
+    url: http://central.maven.org/maven2/com/smoketurner/dropwizard/graphql-core/
+    groupId: com.smoketurner.dropwizard
+    artifactId: graphql-core
+- name: dropwizard-consul
+  url: https://github.com/smoketurner/dropwizard-consul
+  description: Consul support with Dropwizard
+  dropwizard: 1.2.3
+  license: Apache 2.0
+  maven:
+    url: http://central.maven.org/maven2/com/smoketurner/dropwizard/consul-core/
+    groupId: com.smoketurner.dropwizard
+    artifactId: consul-core
+- name: dropwizard-swagger
+  url: https://github.com/smoketurner/dropwizard-swagger
+  description: A Dropwizard bundle that serves Swagger UI static content and loads Swagger endpoints.
+  dropwizard: 1.2.3
+  license: Apache 2.0
+  maven:
+    url: http://central.maven.org/maven2/com/smoketurner/dropwizard-swagger/
+    groupId: com.smoketurner
+    artifactId: dropwizard-swagger
+- name: dropwizard-zipkin
+  url: https://github.com/smoketurner/dropwizard-zipkin
+  description: Zipkin span/trace instrumentation for Dropwizard
+  dropwizard: 1.2.3
+  license: Apache 2.0
+  maven:
+    url: http://central.maven.org/maven2/com/smoketurner/dropwizard/zipkin-core/
+    groupId: com.smoketurner.dropwizard
+    artifactId: zipkin-core
+- name: dropwizard-riak
+  url: https://github.com/smoketurner/dropwizard-riak
+  description: Riak Support for Dropwizard
+  dropwizard: 1.2.3
+  license: Apache 2.0
+  maven:
+    url: http://central.maven.org/maven2/com/smoketurner/dropwizard/dropwizard-riak/
+    groupId: com.smoketurner.dropwizard
+    artifactId: dropwizard-riak
+- name: dropwizard-money
+  url: https://github.com/smoketurner/dropwizard-money
+  description: Money Support for Dropwizard
+  dropwizard: 1.2.0
+  license: Apache 2.0
+  maven:
+    url: http://central.maven.org/maven2/com/smoketurner/dropwizard/dropwizard-money/
+    groupId: com.smoketurner.dropwizard
+    artifactId: dropwizard-money
+
 ## Bundles that have been tested on Dropwizard 1.1
 - name: tenacity
   url: https://github.com/yammer/tenacity
@@ -94,15 +159,6 @@
     artifactId: dropwizard-webjars-bundle
 
 ## Bundles that have been tested on Dropwizard 1.0
-- name: dropwizard-graphql
-  url: https://github.com/smoketurner/dropwizard-graphql
-  description: GraphQL support for Dropwizard
-  dropwizard: 1.0.5
-  license: Apache 2.0
-  maven:
-    url: http://central.maven.org/maven2/com/smoketurner/dropwizard/graphql-core/
-    groupId: com.smoketurner.dropwizard
-    artifactId: graphql-core
 - name: rx-jersey
   url: https://github.com/alex-shpak/rx-jersey/
   description: RxJava support for resources and client with dropwizard bundle
@@ -198,15 +254,6 @@
   license: Apache 2.0
   maven:
     url: https://bintray.com/commercehub-oss/main/dropwizard-camel-core/view
-- name: dropwizard-consul
-  url: https://github.com/smoketurner/dropwizard-consul
-  description: Consul support with Dropwizard
-  dropwizard: 1.0.0
-  license: Apache 2.0
-  maven:
-    url: http://central.maven.org/maven2/com/smoketurner/dropwizard/consul-core/
-    groupId: com.smoketurner.dropwizard
-    artifactId: consul-core
 - name: dropwizard-mongo
   url: https://github.com/commercehub-oss/dropwizard-mongo
   description: A library that supports using MongoDB for data persistence in Dropwizard applications
@@ -214,24 +261,6 @@
   license: Apache 2.0
   maven:
     url: https://bintray.com/commercehub-oss/main/dropwizard-mongo/view
-- name: dropwizard-swagger
-  url: https://github.com/smoketurner/dropwizard-swagger
-  description: A Dropwizard bundle that serves Swagger UI static content and loads Swagger endpoints.
-  dropwizard: 1.0.0
-  license: Apache 2.0
-  maven:
-    url: http://central.maven.org/maven2/com/smoketurner/dropwizard-swagger/
-    groupId: com.smoketurner
-    artifactId: dropwizard-swagger
-- name: dropwizard-zipkin
-  url: https://github.com/smoketurner/dropwizard-zipkin
-  description: Zipkin span/trace instrumentation for Dropwizard
-  dropwizard: 1.0.0
-  license: Apache 2.0
-  maven:
-    url: http://central.maven.org/maven2/com/smoketurner/dropwizard/zipkin-core/
-    groupId: com.smoketurner.dropwizard
-    artifactId: zipkin-core
 - name: jdit
   url: https://github.com/arteam/jdit
   description: "Integration testing of JDBI DAO's in Dropwizard"
