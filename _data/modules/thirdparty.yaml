@@ -9,11 +9,11 @@
 ## compatibility with new Dropwizard releases and to issue new PRs to this
 ## repository to update compatibility info.
 
-## Bundles that have been tested on Dropwizard 1.2
+## Bundles that have been tested on Dropwizard 1.3
 - name: dropwizard-atomix
   url: https://github.com/smoketurner/dropwizard-atomix
   description: Atomix support for Dropwizard
-  dropwizard: 1.2.3
+  dropwizard: 1.3.0
   license: Apache 2.0
   maven:
     url: http://central.maven.org/maven2/com/smoketurner/dropwizard/atomix-core/
@@ -22,7 +22,7 @@
 - name: dropwizard-graphql
   url: https://github.com/smoketurner/dropwizard-graphql
   description: GraphQL support for Dropwizard
-  dropwizard: 1.2.3
+  dropwizard: 1.3.0
   license: Apache 2.0
   maven:
     url: http://central.maven.org/maven2/com/smoketurner/dropwizard/graphql-core/
@@ -31,7 +31,7 @@
 - name: dropwizard-consul
   url: https://github.com/smoketurner/dropwizard-consul
   description: Consul support with Dropwizard
-  dropwizard: 1.2.3
+  dropwizard: 1.3.0
   license: Apache 2.0
   maven:
     url: http://central.maven.org/maven2/com/smoketurner/dropwizard/consul-core/
@@ -40,7 +40,7 @@
 - name: dropwizard-swagger
   url: https://github.com/smoketurner/dropwizard-swagger
   description: A Dropwizard bundle that serves Swagger UI static content and loads Swagger endpoints.
-  dropwizard: 1.2.3
+  dropwizard: 1.3.0
   license: Apache 2.0
   maven:
     url: http://central.maven.org/maven2/com/smoketurner/dropwizard-swagger/
@@ -49,7 +49,7 @@
 - name: dropwizard-zipkin
   url: https://github.com/smoketurner/dropwizard-zipkin
   description: Zipkin span/trace instrumentation for Dropwizard
-  dropwizard: 1.2.3
+  dropwizard: 1.3.0
   license: Apache 2.0
   maven:
     url: http://central.maven.org/maven2/com/smoketurner/dropwizard/zipkin-core/
@@ -58,12 +58,14 @@
 - name: dropwizard-riak
   url: https://github.com/smoketurner/dropwizard-riak
   description: Riak Support for Dropwizard
-  dropwizard: 1.2.3
+  dropwizard: 1.3.0
   license: Apache 2.0
   maven:
     url: http://central.maven.org/maven2/com/smoketurner/dropwizard/dropwizard-riak/
     groupId: com.smoketurner.dropwizard
     artifactId: dropwizard-riak
+
+## Bundles that have been tested on Dropwizard 1.2
 - name: dropwizard-money
   url: https://github.com/smoketurner/dropwizard-money
   description: Money Support for Dropwizard
