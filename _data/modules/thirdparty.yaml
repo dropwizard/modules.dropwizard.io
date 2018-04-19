@@ -300,6 +300,13 @@
   license: MIT
   maven:
     url: http://mvnrepository.com/artifact/com.tradier/dropwizard-raven
+- name: dropwizard-sentry
+  url: https://github.com/dhatim/dropwizard-sentry
+  description: Dropwizard integration for error logging to Sentry
+  dropwizard: 1.3
+  license: Apache 2.0
+  maven:
+    url: http://mvnrepository.com/artifact/org.dhatim/dropwizard-sentry
 - name: btm-DropwizardHealthChecks
   url: https://github.com/BreakTheMonolith/btm-DropwizardHealthChecks
   description: Provides pre-written health checks for JDBC supported databases, dependent Http(s) services, and more
