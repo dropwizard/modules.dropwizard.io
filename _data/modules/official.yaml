@@ -52,3 +52,64 @@
     url: http://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-vavr
     groupId: io.dropwizard.modules
     artifactId: dropwizard-vavr
+- name: dropwizard-kafka
+  url: https://github.com/dropwizard/dropwizard-kafka
+  description: Provides easy integration for Dropwizard applications with Apache Kafka
+  dropwizard: 1.3
+  license: Apache 2.0
+  maven:
+    url: https://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-kafka
+    groupId: io.dropwizard.modules
+    artifactId: dropwizard-kafka
+- name: dropwizard-foundationdb
+  url: https://github.com/dropwizard/dropwizard-foundationdb
+  description: A convenience library for the integration of FoundationDB and various layers in a Dropwizard service.
+  dropwizard: 1.3
+  license: Apache 2.0
+  maven:
+    url: https://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-foundationdb 
+    groupId: io.dropwizard.modules
+    artifactId: dropwizard-foundationdb
+- name: dropwizard-kubernetes
+  url: https://github.com/dropwizard/dropwizard-kubernetes
+  description: A convenience library for the integration of the Fabric8 Kubernetes client in a Dropwizard service.
+  dropwizard: 1.3
+  license: Apache 2.0
+  maven:
+    url: https://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-kubernetes
+    groupId: io.dropwizard.modules
+    artifactId: dropwizard-kubernetes
+- name: dropwizard-health
+  url: https://github.com/dropwizard/dropwizard-health
+  description: Provides a health check implementation that performs ongoing monitoring of an application's dependencies and includes an endpoint that can be called by a load balancer to determine if the application is healthy and thus able to receive traffic.
+  dropwizard: 1.3
+  license: Apache 2.0
+  maven:
+    url: https://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-health
+- name: dropwizard-redis
+  url: https://github.com/dropwizard/dropwizard-redis
+  description: A convenience library for Redis integration in a Dropwizard service.
+  dropwizard: 1.3
+  license: Apache 2.0
+  maven:
+    url: https://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-redis
+    groupId: io.dropwizard.modules
+    artifactId: dropwizard-redis
+- name: dropwizard-web
+  url: https://github.com/dropwizard/dropwizard-web
+  description: Provides support for configuring various http headers that are important for web services.
+  dropwizard: 1.3
+  license: Apache 2.0
+  maven:
+    url: https://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-web
+    groupId: io.dropwizard.modules
+    artifactId: dropwizard-web
+- name: dropwizard-cassandra
+  url: https://github.com/dropwizard/dropwizard-cassandra
+  description: A convenience library for Apache Cassandra integration in a Dropwizard service.
+  dropwizard: 1.3
+  license: Apache 2.0
+  maven:
+    url: https://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-cassandra
+    groupId: io.dropwizard.modules
+    artifactId: dropwizard-cassandra
