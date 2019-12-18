@@ -10,6 +10,15 @@
 ## repository to update compatibility info.
 
 ## Bundles that have been tested on Dropwizard 1.3
+- name: armeria-dropwizard
+  url: https://github.com/line/armeria/dropwizard
+  description: Allows for wrapping Armeria in place of Dropwizard's default Jetty Server 
+  dropwizard: 1.3.0
+  license: Apache 2.0
+  maven:
+    url: http://central.maven.org/maven2/com/linecorp/armeria/armeria-dropwizard/
+    groupId: com.linecorp.armeria
+    artifactId: armeria-dropwizard
 - name: hystrix-dropwizard-bundle
   url: https://github.com/zapodot/hystrix-dropwizard-bundle
   description: easy Hystrix eventstream bundle for DropWizard
