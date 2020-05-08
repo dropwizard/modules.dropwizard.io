@@ -13,7 +13,7 @@
 - name: armeria-dropwizard
   url: https://github.com/line/armeria/tree/master/dropwizard 
   description: Allows for wrapping Armeria in place of Dropwizard's default Jetty Server 
-  dropwizard: 1.3.16, 1.3.17
+  dropwizard: "1.3.16+, 2.0+"
   license: Apache 2.0
   maven:
     url: http://central.maven.org/maven2/com/linecorp/armeria/armeria-dropwizard/
