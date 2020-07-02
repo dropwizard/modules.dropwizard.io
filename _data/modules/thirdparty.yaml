@@ -37,6 +37,15 @@
     url: http://central.maven.org/maven2/com/smoketurner/dropwizard/atomix-core/
     groupId: com.smoketurner.dropwizard
     artifactId: atomix-core
+- name: dropwizard-external-auth-bundle
+  url: https://github.com/brightsparklabs/dropwizard-external-auth-bundle
+  description: Allows your service to trust authentication from an external identity provider.
+  dropwizard: 1.3.0, 2.0+
+  license: MIT
+  maven:
+    url: https://bintray.com/brightsparklabs/maven/dropwizard-external-auth-bundle
+    groupId: com.brightsparklabs
+    artifactId: dropwizard-external-auth-bundle
 - name: dropwizard-jobs
   url: https://github.com/dropwizard-jobs/dropwizard-jobs
   description: Quartz integration for Dropwizard
