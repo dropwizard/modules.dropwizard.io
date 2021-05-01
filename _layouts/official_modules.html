@@ -18,14 +18,14 @@ layout: default
       <th>License</th>
       <th>Maven Artifact</th>
     </tr>
-{% for module in site.data.modules.official %}
+{%- for module in site.data.modules.official -%}
     <tr>
       <td><a href="{{ module.url }}">{{ module.name }}</a></td>
       <td>{{ module.description }}</td>
-      <td>{{ module.license }}</td>
-      <td><a href="{{ module.maven.url }}"><img src="https://img.shields.io/maven-central/v/{{ module.maven.groupId }}/{{ module.maven.artifactId }}.svg"></a></td>
+      <td><a href="https://spdx.org/licenses/{{ module.license }}.html">{{ module.license }}</a></td>
+      <td><a href="https://mvnrepository.com/artifact/{{ module.maven.groupId }}/{{ module.maven.artifactId }}"><img src="https://img.shields.io/maven-central/v/{{ module.maven.groupId }}/{{ module.maven.artifactId }}.svg"></a></td>
     </tr>
-{% endfor %}
+{%- endfor -%}
   </table>
 
 </div>

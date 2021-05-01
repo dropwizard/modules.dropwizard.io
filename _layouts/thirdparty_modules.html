@@ -17,21 +17,24 @@ layout: default
       <th>Description</th>
       <th>License</th>
       <th>Maven Artifact</th>
-      <th>Dropwizard version</th>
+      <th>Dropwizard versions</th>
     </tr>
-{% for module in site.data.modules.thirdparty %}
+{%- for module in site.data.modules.thirdparty -%}
     <tr>
       <td><a href="{{ module.url }}">{{ module.name }}</a></td>
       <td>{{ module.description }}</td>
-      <td>{{ module.license }}</td>
+      <td><a href="https://spdx.org/licenses/{{ module.license }}.html">{{ module.license }}</a></td>
       <td>
-      {% if module.maven != null %}
-        <a href="{{ module.maven.url }}">Details</a>
-      {% endif %}
+      {%- if module.maven != null -%}
+        {%- if module.maven.url == null -%}
+        <a href="https://mvnrepository.com/artifact/{{ module.maven.groupId }}/{{ module.maven.artifactId }}"><img src="https://img.shields.io/maven-central/v/{{ module.maven.groupId }}/{{ module.maven.artifactId }}.svg"></a>
+        {%- else -%}
+        <a href="{{ module.maven.url }}"><img src="https://img.shields.io/maven-central/v/{{ module.maven.groupId }}/{{ module.maven.artifactId }}.svg"></a>
+        {%- endif -%}
+      {%- endif -%}
       </td>
-      <td>{{ module.dropwizard }}</td>
+      <td>{{ module.dropwizard | join: ", " }}</td>
     </tr>
-{% endfor %}
+{%- endfor -%}
   </table>
-
 </div>
