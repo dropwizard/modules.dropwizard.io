@@ -4,7 +4,7 @@
   dropwizard: 1.3.0
   license: Apache 2.0
   maven:
-    url: http://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-discovery
+    url: https://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-discovery
     groupId: io.dropwizard.modules
     artifactId: dropwizard-discovery
 - name: dropwizard-protobuf
@@ -13,7 +13,7 @@
   dropwizard: 1.3.0
   license: Apache 2.0
   maven:
-    url: http://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-protobuf
+    url: https://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-protobuf
     groupId: io.dropwizard.modules
     artifactId: dropwizard-protobuf
 - name: dropwizard-elasticsearch
@@ -22,7 +22,7 @@
   dropwizard: 1.0, 1.1
   license: Apache 2.0
   maven:
-    url: http://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-elasticsearch
+    url: https://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-elasticsearch
     groupId: io.dropwizard.modules
     artifactId: dropwizard-elasticsearch
 - name: dropwizard-flyway
@@ -31,7 +31,7 @@
   dropwizard: 1.0, 1.1, 1.2, 1.3, 2.0
   license: Apache 2.0
   maven:
-    url: http://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-flyway
+    url: https://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-flyway
     groupId: io.dropwizard.modules
     artifactId: dropwizard-flyway
 - name: dropwizard-java8
@@ -40,7 +40,7 @@
   dropwizard: 0.9
   license: Apache 2.0
   maven:
-    url: http://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-java8
+    url: https://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-java8
     groupId: io.dropwizard.modules
     artifactId: dropwizard-java8
 - name: dropwizard-vavr
@@ -49,7 +49,7 @@
   dropwizard: 1.1
   license: Apache 2.0
   maven:
-    url: http://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-vavr
+    url: https://mvnrepository.com/artifact/io.dropwizard.modules/dropwizard-vavr
     groupId: io.dropwizard.modules
     artifactId: dropwizard-vavr
 - name: dropwizard-kafka
