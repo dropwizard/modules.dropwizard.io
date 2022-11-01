@@ -119,10 +119,9 @@
   url: https://github.com/ahus1/keycloak-dropwizard-integration/
   description: Integration of OAuth2 and OpenID Connect by using JBoss Keycloak
   dropwizard:
-    - 1.0.6
-    - 1.1.0
-    - 1.2.0
-    - 1.3.0
+    - 0.9
+    - 1.x
+    - 2.x
   license: Apache-2.0
   maven:
     groupId: de.ahus1.keycloak.dropwizard
