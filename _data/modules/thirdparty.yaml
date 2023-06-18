@@ -65,7 +65,7 @@
   url: https://github.com/dropwizard-jobs/dropwizard-jobs
   description: Quartz integration for Dropwizard
   dropwizard:
-    - 1.3.13
+    - 3.x
   license: Apache-2.0
   maven:
     groupId: io.github.dropwizard-jobs
