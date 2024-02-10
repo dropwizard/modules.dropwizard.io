@@ -117,12 +117,13 @@
     artifactId: dropwizard-riak
 - name: dropwizard-keycloak
   url: https://github.com/ahus1/keycloak-dropwizard-integration/
-  description: Integration of OAuth2 and OpenID Connect by using JBoss Keycloak
+  description: Integration of OAuth2 and OpenID Connect by using Keycloak
   dropwizard:
     - '0.9'
     - '1.x'
     - '2.x'
     - '3.x'
+    - '4.x'
   license: Apache-2.0
   maven:
     groupId: de.ahus1.keycloak.dropwizard
